@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.astro';
+import PromptGenerator from '../components/PromptGenerator.astro';
+import ContentSections from '../components/ContentSections.astro';
+import FAQSection from '../components/FAQSection.astro';
+
+// Home page SEO parameters
+const title = "Drawing Prompt Generator — Free Creative Ideas Instantly";
+const description = "Instantly generate unlimited creative drawing prompts for characters, fantasy, landscapes, animals, and daily challenges. Overcome art block and start sketching today!";
+---
+
+<Layout title={title} description={description}>
+  <!-- Hero Section -->
+  <Hero />
+  
+  <!-- Interactive Prompt Generator Core -->
+  <PromptGenerator />
+  
+  <!-- Copywriting, benefits, categories and tips -->
+  <ContentSections />
+  
+  <!-- SEO Collapsible FAQs -->
+  <FAQSection />
+</Layout>

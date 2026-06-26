@@ -1,0 +1,86 @@
+---
+import Layout from '../layouts/Layout.astro';
+import FAQSection from '../components/FAQSection.astro';
+
+const title = "Frequently Asked Questions — Drawing Prompt Generator";
+const description = "Find answers to frequently asked questions about drawing prompts, how to use them for art practice, licenses for commercial use, and more.";
+---
+
+<Layout title={title} description={description}>
+  <div class="faq-page">
+    <div class="container container-narrow">
+      <div class="text-center faq-header-box">
+        <div class="badge badge-primary">F.A.Q.</div>
+        <h1 class="faq-page-title">Questions & Answers</h1>
+        <p class="faq-page-subtitle">Learn how to make the most of drawing prompts in your sketchbook journal or concept art studies.</p>
+      </div>
+    </div>
+    
+    <!-- Render the core FAQ Section component with schema -->
+    <FAQSection />
+
+    <div class="container container-narrow text-center faq-cta-box">
+      <div class="card ask-more-card">
+        <h3>Have a different question or suggestion?</h3>
+        <p>We are always expanding our database of prompt modifiers. Let us know if you want to suggest new drawing topics!</p>
+        <a href="/contact" class="btn btn-secondary">Contact Us</a>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .faq-page {
+    padding: 60px 0 80px 0;
+  }
+
+  .container-narrow {
+    max-width: 800px;
+  }
+
+  .faq-header-box {
+    margin-bottom: 40px;
+  }
+
+  .faq-page-title {
+    font-size: 2.75rem;
+    margin-top: 12px;
+    margin-bottom: 16px;
+    letter-spacing: -0.02em;
+  }
+
+  .faq-page-subtitle {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+  }
+
+  .faq-cta-box {
+    margin-top: 60px;
+  }
+
+  .ask-more-card {
+    padding: 36px;
+    background: linear-gradient(135deg, rgba(109, 94, 248, 0.02) 0%, rgba(139, 127, 255, 0.02) 100%);
+    border-color: rgba(109, 94, 248, 0.1);
+  }
+
+  .ask-more-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+    color: var(--text);
+  }
+
+  .ask-more-card p {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    margin-bottom: 24px;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .ask-more-card .btn {
+    padding: 10px 24px;
+    font-size: 0.95rem;
+  }
+</style>

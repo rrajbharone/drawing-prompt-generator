@@ -1,0 +1,151 @@
+---
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <!-- Brand / About Column -->
+    <div class="footer-col brand-col">
+      <a href="/" class="footer-logo" aria-label="Drawing Prompt Generator Home">
+        <span class="logo-accent">Drawing</span>PromptGenerator
+      </a>
+      <p class="brand-desc">
+        Empowering artists, illustrators, concept artists, and creators with high-quality, inspiring, and creative drawing prompts. Spark your imagination and overcome creative blocks instantly.
+      </p>
+    </div>
+
+    <!-- Quick Links Column -->
+    <div class="footer-col">
+      <h3>Quick Links</h3>
+      <ul class="footer-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/categories">Browse Categories</a></li>
+        <li><a href="/random">Random Prompt</a></li>
+        <li><a href="/faq">Frequently Asked Questions</a></li>
+        <li><a href="/about">About Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Legal Column -->
+    <div class="footer-col">
+      <h3>Legal</h3>
+      <ul class="footer-links">
+        <li><a href="/privacy">Privacy Policy</a></li>
+        <li><a href="/terms">Terms of Service</a></li>
+        <li><a href="/disclaimer">Disclaimer</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/sitemap">Sitemap</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container footer-bottom-container">
+      <p class="copyright">&copy; {year} DrawingPromptGenerator.com. All rights reserved.</p>
+      <p class="made-for-artists">Made with &hearts; for artists and creators worldwide.</p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    background-color: #FFFFFF;
+    border-top: 1px solid var(--border-color);
+    padding-top: 60px;
+    margin-top: 80px;
+  }
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 48px;
+    padding-bottom: 48px;
+  }
+
+  .footer-col h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text);
+  }
+
+  .brand-col {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .footer-logo {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: var(--text);
+    letter-spacing: -0.03em;
+  }
+
+  .logo-accent {
+    color: var(--primary);
+  }
+
+  .brand-desc {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    max-width: 400px;
+  }
+
+  .footer-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .footer-links a {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    transition: var(--transition-fast);
+  }
+
+  .footer-links a:hover {
+    color: var(--primary);
+    padding-left: 4px;
+  }
+
+  .footer-bottom {
+    border-top: 1px solid var(--border-color);
+    padding: 24px 0;
+    font-size: 0.85rem;
+    color: var(--text-light);
+  }
+
+  .footer-bottom-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .copyright {
+    color: var(--text-muted);
+  }
+
+  .made-for-artists {
+    color: var(--text-light);
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-grid {
+      grid-template-columns: 1fr;
+      gap: 32px;
+    }
+    
+    .footer-bottom-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+</style>

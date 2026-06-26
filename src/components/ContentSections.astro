@@ -1,0 +1,550 @@
+---
+// Categories metadata for linking
+const categories = [
+  { name: 'Characters', slug: 'Characters', desc: 'Heroes, villains, NPC designs, and costume concepts.' },
+  { name: 'Fantasy', slug: 'Fantasy', desc: 'Elves, wizards, magical forests, and mystical relics.' },
+  { name: 'Animals', slug: 'Animals', desc: 'Real wildlife, creatures, and mythical hybrids.' },
+  { name: 'Landscape', slug: 'Landscape', desc: 'Deserts, canyons, mountain vistas, and starry horizons.' },
+  { name: 'Sci-Fi', slug: 'Sci-Fi', desc: 'Space colonies, spaceships, cyberpunk bars, and androids.' },
+  { name: 'Horror', slug: 'Horror', desc: 'Haunted houses, shadow spectres, and creepy crawlers.' },
+  { name: 'Cute', slug: 'Cute', desc: 'Chubby kittens, sleepy frogs, and pocket-sized helpers.' },
+  { name: 'Daily Challenge', slug: 'Daily Challenge', desc: 'Curated drawing prompts for structured practice.' }
+];
+---
+
+<div class="content-sections">
+
+  <!-- How It Works Section -->
+  <section class="section how-it-works">
+    <div class="container text-center">
+      <h2 class="section-title-large">How It Works</h2>
+      <p class="section-subtitle">Start generating inspiring drawing ideas in three easy steps.</p>
+      
+      <div class="grid grid-cols-3 steps-grid">
+        <div class="card step-card">
+          <div class="step-num">1</div>
+          <h3>Select Filters</h3>
+          <p>Choose your preferred category, difficulty level, style, or mood to match your practice goals.</p>
+        </div>
+        <div class="card step-card">
+          <div class="step-num">2</div>
+          <h3>Generate Prompt</h3>
+          <p>Click "Generate Another" or press <kbd class="keyboard-key">Space</kbd> to load a unique, creative idea.</p>
+        </div>
+        <div class="card step-card">
+          <div class="step-num">3</div>
+          <h3>Start Sketching</h3>
+          <p>Copy the prompt to your clipboard, save it to your favorites, and grab your pen or digital tablet!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Categories Section -->
+  <section class="section popular-categories" id="popular-categories">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="section-title-large">Popular Prompt Categories</h2>
+        <p class="section-subtitle">Browse popular prompt categories and pre-filter the generator.</p>
+      </div>
+
+      <div class="categories-grid">
+        {categories.map(cat => (
+          <a href={`/categories?category=${encodeURIComponent(cat.slug)}`} class="category-card" aria-label={`View ${cat.name} prompts`}>
+            <div class="category-card-content">
+              <div class="category-icon">
+                {cat.slug === 'Characters' && (
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                )}
+                {cat.slug === 'Fantasy' && (
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path></svg>
+                )}
+                {cat.slug === 'Animals' && (
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 14c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3z"></path><circle cx="12" cy="3.5" r="1.5"></circle><circle cx="5.5" cy="9.5" r="1.5"></circle><circle cx="18.5" cy="9.5" r="1.5"></circle><circle cx="7.5" cy="18.5" r="1.5"></circle><circle cx="16.5" cy="18.5" r="1.5"></circle></svg>
+                )}
+                {cat.slug === 'Landscape' && (
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m8 3 4 8 5-5 5 15H2L8 3z"></path></svg>
+                )}
+                {cat.slug === 'Sci-Fi' && (
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2.5 3.19-2.5 5.5h8c0-2.31-1-4.24-2.5-5.5"></path><path d="M12 2C6 2 2 6 2 12c0 3 .5 5.5 1.5 7.5L6 17l5 5 2.5-2.5c2 1 4.5 1.5 7.5 1.5 6 0 10-4 10-10S18 2 12 2z"></path><circle cx="12" cy="9" r="1"></circle></svg>
+                )}
+                {cat.slug === 'Horror' && (
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="12" r="1"></circle><circle cx="15" cy="12" r="1"></circle><path d="M12 2a8 8 0 0 0-8 8v12l3-3 2.5 2.5L12 19l2.5 2.5L17 19l3 3V10a8 8 0 0 0-8-8z"></path></svg>
+                )}
+                {cat.slug === 'Cute' && (
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                )}
+                {cat.slug === 'Daily Challenge' && (
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                )}
+              </div>
+              <h3>{cat.name}</h3>
+              <p>{cat.desc}</p>
+            </div>
+            <span class="category-link-text">
+              Browse prompts
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="arrow-icon" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Two Column Information: Who it is For & Benefits -->
+  <section class="section info-section">
+    <div class="container grid grid-cols-2 info-grid">
+      <!-- Who is it for -->
+      <div class="info-block">
+        <h2 class="section-title-large text-left">Who is it for?</h2>
+        <p class="info-intro">Whether you paint digitally or sketch in a paper notebook, our generator is tailored for creators of all levels:</p>
+        <ul class="info-list">
+          <li>
+            <strong>Illustrators & Concept Artists:</strong> Break out of style comfort zones and build unique portfolio concepts.
+          </li>
+          <li>
+            <strong>Art Students & Beginners:</strong> Practice fundamental shapes, lighting, and textures with simplified prompts.
+          </li>
+          <li>
+            <strong>Hobbyists & Sketchbook Fans:</strong> Find quick daily challenges for evening sketching sessions.
+          </li>
+          <li>
+            <strong>AI Art Creators:</strong> Get highly descriptive prompt frameworks for Stable Diffusion, Midjourney, or DALL-E.
+          </li>
+        </ul>
+      </div>
+
+      <!-- Benefits -->
+      <div class="info-block">
+        <h2 class="section-title-large text-left">Why use this generator?</h2>
+        <p class="info-intro">Our tool is designed to actively boost your creative output and improve raw technical skills:</p>
+        <ul class="info-list">
+          <li>
+            <strong>Overcome Art Block:</strong> Never stare at a blank canvas again. Get instant inspiration with one click.
+          </li>
+          <li>
+            <strong>Targeted Skill Building:</strong> Select 'Beginner' to practice standalone objects or 'Advanced' for multi-subject cinematic scenes.
+          </li>
+          <li>
+            <strong>Infinite Combinations:</strong> Access 500+ hand-crafted base prompts expanded by smart procedural modifiers.
+          </li>
+          <li>
+            <strong>100% Free & Serverless:</strong> No accounts, no subscriptions, and ultra-fast static loading speeds.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Drawing Tips & Practice Ideas Section -->
+  <section class="section tips-section">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="section-title-large">Art Practice Tips & Ideas</h2>
+        <p class="section-subtitle">Maximize your sketching practice with these professional drawing strategies.</p>
+      </div>
+
+      <div class="grid grid-cols-3 tips-grid">
+        <div class="card tip-card">
+          <div class="tip-icon-header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          </div>
+          <h3>Speed Sketching (15-Min)</h3>
+          <p>Set a timer for 15 minutes. Pick a short prompt and sketch without erasing. Focus on capturing the raw gesture, movement, and silhouette rather than polished details.</p>
+        </div>
+        
+        <div class="card tip-card">
+          <div class="tip-icon-header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 14.7255 3.09032 17.1962 4.85857 19C5.34771 19.5 6.01254 20 6.70252 20C7.20252 20 7.69748 19.65 7.69748 19.12C7.69748 18.7 7.5 18.25 7.23 17.77C6.91 17.19 6.73 16.53 6.73 15.82C6.73 14.26 7.99 13 9.55 13H11.5C12.33 13 13 12.33 13 11.5V9.5C13 6.46 15.46 4 18.5 4H19C19.55 4 20 4.45 20 5C20 5.55 19.55 6 19 6H18.5C16.57 6 15 7.57 15 9.5V11.5C15 13.43 13.43 15 11.5 15H9.55C9.02 15 8.55 15.4 8.55 15.93C8.55 16.4 8.7 16.8 8.91 17.2C9.53 18.29 10 19.24 10 20C10 21.1 9.1 22 8 22H12Z"></path></svg>
+          </div>
+          <h3>Value Study Practice</h3>
+          <p>Force yourself to paint the generated prompt using only black, white, and three shades of grey. This builds strong knowledge of light source, shadows, and depth representation.</p>
+        </div>
+
+        <div class="card tip-card">
+          <div class="tip-icon-header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+          </div>
+          <h3>Reference Collection</h3>
+          <p>Before drawing a complex prompt (like a steampunk train on a bridge), find 3 real-world photo references for the individual components. Blend real references with your imagination.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="section cta-section text-center">
+    <div class="container cta-container card">
+      <h2 class="cta-title">Ready to Start Drawing?</h2>
+      <p class="cta-desc">Launch the prompt generator now and start filling your sketchbook pages with unique art ideas.</p>
+      <div class="cta-actions">
+        <a href="#generator-box" class="btn btn-primary btn-lg">Start Generator</a>
+        <a href="/random" class="btn btn-secondary btn-lg">Auto Generate</a>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<style>
+  .section {
+    padding: clamp(40px, 8vw, 80px) 0; /* Fluid section paddings */
+  }
+
+  .section-title-large {
+    font-size: clamp(1.75rem, 4vw, 2.25rem); /* Fluid headers */
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin-bottom: 12px;
+    color: var(--text);
+  }
+
+  .text-left {
+    text-align: left;
+  }
+
+  .section-subtitle {
+    font-size: 1.05rem;
+    color: var(--text-muted);
+    max-width: 600px;
+    margin: 0 auto clamp(24px, 5vw, 48px) auto;
+  }
+
+  /* How it works */
+  .steps-grid {
+    margin-top: 24px;
+  }
+
+  .step-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: clamp(20px, 4vw, 32px) clamp(16px, 3vw, 24px);
+  }
+
+  .step-num {
+    background-color: rgba(109, 94, 248, 0.1);
+    color: var(--primary);
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+  }
+
+  html.dark .step-num {
+    background-color: rgba(109, 94, 248, 0.2);
+    color: var(--secondary);
+  }
+
+  .step-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 12px;
+  }
+
+  .step-card p {
+    font-size: 0.925rem;
+    color: var(--text-muted);
+  }
+
+  /* Popular Categories */
+  .popular-categories {
+    background-color: var(--card-bg);
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  .categories-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-top: 36px;
+  }
+
+  @media (min-width: 768px) {
+    .categories-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 24px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .categories-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 24px;
+    }
+  }
+
+  .category-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: clamp(24px, 4vw, 32px);
+    background-color: var(--background);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition-smooth);
+    text-decoration: none;
+    text-align: left;
+  }
+
+  .category-card:hover {
+    background-color: var(--card-bg);
+    border-color: var(--primary);
+    box-shadow: 0 16px 32px -10px rgba(109, 94, 248, 0.15), 0 4px 12px -5px rgba(109, 94, 248, 0.08);
+    transform: translateY(-6px);
+  }
+
+  html.dark .category-card:hover {
+    border-color: var(--secondary);
+    box-shadow: 0 16px 32px -10px rgba(0, 0, 0, 0.6), 0 4px 12px -5px rgba(139, 127, 255, 0.15);
+  }
+
+  .category-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .category-icon {
+    color: var(--primary);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+  }
+
+  html.dark .category-icon {
+    color: var(--secondary);
+  }
+
+  .category-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+    color: var(--text);
+  }
+
+  .category-card p {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+    margin-bottom: 0;
+  }
+
+  .category-link-text {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    color: var(--primary);
+    margin-top: 20px;
+    transition: var(--transition-fast);
+    min-height: 44px; /* Accessible touch target */
+  }
+
+  html.dark .category-link-text {
+    color: var(--secondary);
+  }
+
+  .arrow-icon {
+    transition: transform 250ms ease;
+  }
+
+  .category-card:hover .arrow-icon {
+    transform: translateX(4px);
+  }
+
+  @media (max-width: 767px) {
+    .category-card {
+      text-align: center;
+      align-items: center;
+      padding: 24px;
+    }
+
+    .category-card-content {
+      align-items: center;
+    }
+
+    .category-icon {
+      justify-content: center;
+    }
+
+    .category-link-text {
+      justify-content: center;
+      margin-top: 16px;
+      width: 100%;
+    }
+  }
+
+  /* Info Section */
+  .info-grid {
+    gap: clamp(30px, 6vw, 60px);
+  }
+
+  .info-intro {
+    font-size: 1.05rem;
+    margin-bottom: 24px;
+  }
+
+  .info-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .info-list li {
+    position: relative;
+    padding-left: 28px;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+  }
+
+  .info-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+
+  html.dark .info-list li::before {
+    color: var(--secondary);
+  }
+
+  .info-list li strong {
+    color: var(--text);
+  }
+
+  /* Tips section */
+  .tip-card {
+    padding: clamp(24px, 4vw, 32px) 24px;
+  }
+
+  .tip-icon-header {
+    color: var(--primary);
+    margin-bottom: 16px;
+  }
+
+  html.dark .tip-icon-header {
+    color: var(--secondary);
+  }
+
+  .tip-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+  }
+
+  .tip-card p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  /* Call to action */
+  .cta-section {
+    padding: 40px 0 clamp(40px, 8vw, 80px) 0;
+  }
+
+  .cta-container {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    padding: clamp(30px, 6vw, 60px) clamp(20px, 4vw, 40px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    box-shadow: 0 20px 40px -15px rgba(109, 94, 248, 0.3);
+  }
+
+  .cta-title {
+    font-size: clamp(1.75rem, 5vw, 2.25rem);
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    font-family: 'Outfit', sans-serif;
+  }
+
+  .cta-desc {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.9);
+    max-width: 600px;
+    margin-bottom: 32px;
+  }
+
+  .cta-actions {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .cta-actions .btn-primary {
+    background-color: #FFFFFF;
+    color: var(--primary);
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .cta-actions .btn-primary:hover {
+    background-color: var(--background);
+    color: var(--primary-hover);
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+  }
+
+  .cta-actions .btn-secondary {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #FFFFFF;
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .cta-actions .btn-secondary:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-color: #FFFFFF;
+  }
+
+  .keyboard-key {
+    background-color: var(--background);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 1px 0 rgba(0,0,0,0.15);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-family: monospace;
+    font-size: 0.75rem;
+    color: var(--text);
+  }
+
+  /* Responsive Queries */
+  @media (max-width: 1024px) {
+    .info-grid {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .steps-grid, .tips-grid {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+    
+    .cta-actions {
+      flex-direction: column;
+      width: 100%;
+      max-width: 300px;
+    }
+    
+    .cta-actions .btn {
+      width: 100%;
+    }
+  }
+</style>

@@ -1,0 +1,163 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const title = "Browse Drawing Prompt Categories — Drawing Prompt Generator";
+const description = "Explore over 40 creative categories of drawing prompts, from character design and fantasy to sci-fi, horror, environments, and daily challenges.";
+
+const categories = [
+  { name: 'Characters', icon: '👤', desc: 'People, archetypes, occupations, and fantasy classes.' },
+  { name: 'Fantasy', icon: '🔮', desc: 'Magic, spellcasters, elves, dragons, and mystical settings.' },
+  { name: 'Animals', icon: '🦁', desc: 'Mammals, birds, reptiles, aquatic life, and mythical beasts.' },
+  { name: 'Nature', icon: '🌿', desc: 'Plants, moss, flora, forests, and detailed botanical studies.' },
+  { name: 'Landscape', icon: '⛰️', desc: 'Mountains, deserts, canyons, vistas, and settings.' },
+  { name: 'Sci-Fi', icon: '🚀', desc: 'Future tech, deep space, alien worlds, and galaxy systems.' },
+  { name: 'Horror', icon: '💀', desc: 'Spooky creatures, ghosts, haunted ruins, and dark imagery.' },
+  { name: 'Cute', icon: '🧸', desc: 'Chubby animal helpers, tiny creatures, and wholesome scenes.' },
+  { name: 'Objects', icon: '🔑', desc: 'Terrariums, keys, potion bottles, clocks, and artifacts.' },
+  { name: 'Architecture', icon: '🏛️', desc: 'Cathedrals, treehouses, sky-cities, and ancient structures.' },
+  { name: 'Food', icon: '🥞', desc: 'Fantasy dishes, magical teapots, futuristic street foods, and snacks.' },
+  { name: 'Vehicles', icon: '🚂', desc: 'Airships, hover-cars, steam trains, campers, and sailing ships.' },
+  { name: 'Daily Challenge', icon: '📅', desc: 'Curated daily exercises and constraints to challenge you.' },
+  { name: 'Anime', icon: '🎒', desc: 'Schoolgirls, mecha action, scenery, and magic-user styles.' },
+  { name: 'Manga', icon: '📖', desc: 'Manga panels, speed lines, dramatic expressions, and ink styles.' },
+  { name: 'Comics', icon: '💥', desc: 'Retro superheroes, noir detectives, and expressive characters.' },
+  { name: 'Pixel Art', icon: '👾', desc: '16-bit retro layouts, side-scroller assets, and monster sprites.' },
+  { name: 'Steampunk', icon: '⚙️', desc: 'Goggles, clockwork joints, pressure dials, and steam vessels.' },
+  { name: 'Cyberpunk', icon: '🕶️', desc: 'Hacker decks, neon advertisements, rainy alleys, and augmentations.' },
+  { name: 'Mythology', icon: '🔱', desc: 'Anubis, Greek gods, Norse valkyries, and legendary lore.' },
+  { name: 'Monsters', icon: '👺', desc: 'Swamp leviathans, rock golems, spectral wraiths, and creatures.' },
+  { name: 'Dragons', icon: '🐉', desc: 'Sleeping drakes, breath weapons, drakes nesting, and wyverns.' },
+  { name: 'Magic', icon: '✨', desc: 'Runic circles, spellcasting, magic hats, and glowing potions.' },
+  { name: 'Medieval', icon: '🏰', desc: 'Banquet halls, castle gates, markets, and town guards.' },
+  { name: 'Space', icon: '🌌', desc: 'Gas giants, craters, moons, nebulae, and stellar explorers.' },
+  { name: 'Underwater', icon: '🐙', desc: 'Deep trenches, scuba divers, sunken ruins, and mermaids.' },
+  { name: 'Dinosaurs', icon: '🦖', desc: 'Roaring T-Rex, soaring pterodactyls, and giant herbivores.' },
+  { name: 'Fashion', icon: '👗', desc: 'Peacock dresses, LED street gear, and Victorian gown detail.' },
+  { name: 'Portraits', icon: '👤', desc: 'Wrinkled sailors, elven princesses, and freckle profiles.' },
+  { name: 'Abstract', icon: '🌀', desc: 'Surreal layout, music mapping, and geometric lines.' },
+  { name: 'Robots', icon: '🤖', desc: 'Rusty gardeners, AI helpers, and factory mechanical arms.' },
+  { name: 'Weapons', icon: '⚔️', desc: 'Crystal staves, star-metal swords, and plasma rifles.' },
+  { name: 'Environment', icon: '🏠', desc: 'Cozy attics, crystal caves, and bamboo forest paths.' },
+  { name: 'Cities', icon: '🏙️', desc: 'European canals, overgrown ruins, and neon skyscrapers.' },
+  { name: 'Islands', icon: '🏝️', desc: 'Turtle-shaped floating isles, volcanic spires, and oasis sands.' },
+  { name: 'Magic Items', icon: '💎', desc: 'Hourglasses, star-vials, blinking books, and relics.' },
+  { name: 'Seasonal', icon: '🍁', desc: 'Spring flower meadows, autumn leaves, and frozen winter lakes.' },
+  { name: 'Halloween', icon: '🎃', desc: 'Jack-o-lantern flames, graveyard spectres, and spooky details.' },
+  { name: 'Christmas', icon: '🎄', desc: 'Stocking mantels, snow squares, and glowing tree lights.' },
+  { name: 'Simple Sketch', icon: '✏️', desc: 'Line art, gesture sketches, and loose outline practice.' },
+  { name: 'Advanced Concept Art', icon: '🎭', desc: 'Character sheets, keyframes, and environment concept views.' }
+];
+---
+
+<Layout title={title} description={description}>
+  <div class="categories-page">
+    <div class="container">
+      <div class="text-center page-header">
+        <div class="badge badge-primary">Prompt Database</div>
+        <h1 class="page-title">Browse Prompt Categories</h1>
+        <p class="page-subtitle">Select any category to open the prompt generator pre-filtered for that topic.</p>
+      </div>
+
+      <div class="grid grid-cols-2 md-grid-cols-3 lg-grid-cols-4 categories-list-grid">
+        {categories.map(cat => (
+          <a href={`/?category=${encodeURIComponent(cat.name)}`} class="card category-list-card" aria-label={`Generate ${cat.name} prompts`}>
+            <div class="category-icon-bubble">{cat.icon}</div>
+            <div class="category-info">
+              <h3>{cat.name}</h3>
+              <p>{cat.desc}</p>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .categories-page {
+    padding: 60px 0 80px 0;
+  }
+
+  .page-header {
+    margin-bottom: 50px;
+  }
+
+  .page-title {
+    font-size: 2.75rem;
+    margin-top: 12px;
+    margin-bottom: 16px;
+    letter-spacing: -0.02em;
+  }
+
+  .page-subtitle {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* Grid details */
+  .categories-list-grid {
+    display: grid;
+    gap: 20px;
+  }
+
+  @media (min-width: 768px) {
+    .md-grid-cols-3 {
+      grid-template-cols: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .lg-grid-cols-4 {
+      grid-template-cols: repeat(4, minmax(0, 1fr));
+    }
+  }
+
+  .category-list-card {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    transition: var(--transition-bounce);
+  }
+
+  .category-list-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--primary);
+  }
+
+  .category-icon-bubble {
+    background-color: var(--background);
+    width: 48px;
+    height: 48px;
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    transition: var(--transition-fast);
+  }
+
+  .category-list-card:hover .category-icon-bubble {
+    background-color: rgba(109, 94, 248, 0.08);
+  }
+
+  .category-info h3 {
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+    color: var(--text);
+  }
+
+  .category-info p {
+    font-size: 0.825rem;
+    color: var(--text-muted);
+    line-height: 1.4;
+  }
+
+  @media (max-width: 640px) {
+    .categories-list-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

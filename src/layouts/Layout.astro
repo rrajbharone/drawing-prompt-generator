@@ -1,0 +1,163 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  canonicalURL?: string;
+  schema?: Record<string, any> | string;
+}
+
+const { title, description, canonicalURL = Astro.url.href, schema } = Astro.props;
+
+// Ensure we have a clean canonical URL without trailing slashes for standard SEO
+const cleanCanonical = canonicalURL.endsWith('/') && canonicalURL !== 'https://drawingpromptgenerator.com/' 
+  ? canonicalURL.slice(0, -1) 
+  : canonicalURL;
+
+// Base WebSite Schema
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Drawing Prompt Generator",
+  "alternateName": "DrawingPromptGenerator",
+  "url": "https://drawingpromptgenerator.com",
+  "description": "Generate creative, high-quality drawing prompts instantly for characters, fantasy, landscapes, sci-fi, and daily sketching challenges.",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://drawingpromptgenerator.com/?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+};
+
+// Breadcrumb Schema
+const isHome = Astro.url.pathname === '/';
+let breadcrumbSchema = null;
+if (!isHome) {
+  const pathSegments = Astro.url.pathname.split('/').filter(Boolean);
+  breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://drawingpromptgenerator.com"
+      },
+      ...pathSegments.map((segment, index) => {
+        const url = `https://drawingpromptgenerator.com/${pathSegments.slice(0, index + 1).join('/')}`;
+        // Capitalize and format path segments for display names
+        const name = segment.charAt(0).toUpperCase() + segment.slice(1).replace(/-/g, ' ');
+        return {
+          "@type": "ListItem",
+          "position": index + 2,
+          "name": name,
+          "item": url
+        };
+      })
+    ]
+  };
+}
+
+// Convert schema props to string if they are objects
+const customSchemaStr = schema 
+  ? (typeof schema === 'string' ? schema : JSON.stringify(schema, null, 2)) 
+  : null;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <script is:inline>
+      const theme = (() => {
+        if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
+          return localStorage.getItem('theme');
+        }
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          return 'dark';
+        }
+        return 'light';
+      })();
+      if (theme === 'dark') {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    </script>
+    
+    <!-- Title and Description -->
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={cleanCanonical} />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#6D5EF8" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={cleanCanonical} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content="https://drawingpromptgenerator.com/og-image.png" />
+    <meta property="og:site_name" content="Drawing Prompt Generator" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content={cleanCanonical} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content="https://drawingpromptgenerator.com/og-image.png" />
+
+    <!-- Astro generator meta -->
+    <meta name="generator" content={Astro.generator} />
+
+    <!-- Google Site Verification (Placeholder/Ready to configure) -->
+    <meta name="google-site-verification" content="google_verification_code_goes_here" />
+
+    <!-- Global JSON-LD Schema (WebSite Schema) -->
+    <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+    
+    <!-- Breadcrumb JSON-LD Schema -->
+    {breadcrumbSchema && (
+      <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+    )}
+
+    <!-- Dynamic/Page-specific JSON-LD Schema (e.g. FAQ Schema) -->
+    {customSchemaStr && (
+      <script type="application/ld+json" set:html={customSchemaStr} />
+    )}
+  </head>
+  <body>
+    <Header />
+    <main id="main-content">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<style>
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+</style>

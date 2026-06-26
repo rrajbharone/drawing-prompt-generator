@@ -1,0 +1,155 @@
+---
+const faqs = [
+  {
+    q: "What is a drawing prompt?",
+    a: "A drawing prompt is a short text description or creative instruction that provides an artist with an idea, scene, character, or challenge to sketch. It serves as a springboard for imagination, helping to spark visual designs and overcome the initial fear of the blank page."
+  },
+  {
+    q: "How do drawing prompts improve creativity?",
+    a: "Drawing prompts force you to step outside your comfort zone and illustrate subjects you wouldn't normally choose. By setting structural constraints (e.g. specific moods, styles, and character classes), they encourage lateral thinking and help you discover new rendering techniques."
+  },
+  {
+    q: "Can beginners use this?",
+    a: "Absolutely! We recommend that beginners select the 'Beginner' difficulty filter. This limits generated prompts to simpler, singular subjects (like objects, plants, or basic animals) rather than complex cinematic environments with multiple interacting figures."
+  },
+  {
+    q: "Are prompts unlimited?",
+    a: "Yes! Our database contains over 500 hand-crafted base prompt ideas, which are dynamically blended with dozens of styles, moods, settings, actions, and details on each click. This yields thousands of unique, creative combinations."
+  },
+  {
+    q: "Is this tool free?",
+    a: "Yes, Drawing Prompt Generator is 100% free to use. There are no paywalls, accounts, subscriptions, or credit cards required. You can generate, copy, and favorite as many prompts as you like."
+  },
+  {
+    q: "Can I use prompts for commercial artwork?",
+    a: "Yes! The prompts generated on this site are design frameworks to spark your own imagination. Any artwork, sketches, paintings, illustrations, or concept designs you create based on these prompts are 100% yours to sell, publish, or include in commercial portfolios."
+  }
+];
+
+// Generate FAQ JSON-LD Schema
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map(faq => ({
+    "@type": "Question",
+    "name": faq.q,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": faq.a
+    }
+  }))
+};
+---
+
+<section class="section faq-section" id="faq">
+  <div class="container faq-container">
+    <div class="text-center">
+      <h2 class="section-title-large">Frequently Asked Questions</h2>
+      <p class="section-subtitle">Everything you need to know about using drawing prompts to level up your art.</p>
+    </div>
+
+    <div class="faq-list">
+      {faqs.map((faq, index) => (
+        <details class="faq-item" id={`faq-item-${index}`}>
+          <summary class="faq-question">
+            <span>{faq.q}</span>
+            <span class="faq-icon-arrow" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </span>
+          </summary>
+          <div class="faq-answer">
+            <p>{faq.a}</p>
+          </div>
+        </details>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- Inject FAQ Page JSON-LD schema dynamically -->
+<script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+
+<style>
+  .faq-section {
+    background-color: var(--card-bg);
+    border-top: 1px solid var(--border-color);
+  }
+
+  .faq-container {
+    max-width: 800px;
+  }
+
+  .faq-list {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .faq-item {
+    background-color: var(--background);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    transition: var(--transition-smooth);
+  }
+
+  .faq-item[open] {
+    border-color: rgba(109, 94, 248, 0.2);
+    background-color: #FFFFFF;
+    box-shadow: var(--shadow-md);
+  }
+
+  .faq-question {
+    list-style: none;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text);
+    padding: 20px 24px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+    outline: none;
+  }
+
+  /* Hide default summary arrow in webkit/firefox */
+  .faq-question::-webkit-details-marker {
+    display: none;
+  }
+
+  .faq-icon-arrow {
+    color: var(--text-muted);
+    transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+  }
+
+  .faq-item[open] .faq-icon-arrow {
+    transform: rotate(180deg);
+    color: var(--primary);
+  }
+
+  .faq-answer {
+    padding: 0 24px 20px 24px;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+    border-top: 1px solid transparent;
+  }
+
+  .faq-item[open] .faq-answer {
+    border-top-color: rgba(229, 231, 235, 0.5);
+  }
+
+  /* Micro animation hover */
+  .faq-item:hover {
+    border-color: var(--border-color-hover);
+  }
+
+  .faq-item[open]:hover {
+    border-color: rgba(109, 94, 248, 0.2);
+  }
+</style>

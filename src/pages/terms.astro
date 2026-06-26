@@ -1,0 +1,115 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const title = "Terms of Service — Drawing Prompt Generator";
+const description = "Read the terms of service for Drawing Prompt Generator. Review website terms of use, licensing, and limitations of liability.";
+---
+
+<Layout title={title} description={description}>
+  <div class="legal-page">
+    <div class="container container-narrow">
+      <div class="text-center legal-header">
+        <h1 class="legal-title">Terms of Service</h1>
+        <p class="legal-subtitle">Effective Date: June 26, 2026</p>
+      </div>
+
+      <div class="card legal-content-card">
+        <p>
+          Welcome to Drawing Prompt Generator. By accessing our website (drawingpromptgenerator.com), you agree to comply with and be bound by the following Terms of Service. Please review them carefully.
+        </p>
+
+        <h2>1. Acceptance of Terms</h2>
+        <p>
+          By utilizing the prompt generators, browsing categories, or accessing files on this website, you indicate your full agreement to these Terms. If you do not agree with any of these conditions, you are prohibited from using the site.
+        </p>
+
+        <h2>2. Intellectual Property and Licenses</h2>
+        <p>
+          All site designs, layout, code components, logo designs, and text modifiers created by us are the property of Drawing Prompt Generator. 
+        </p>
+        <p>
+          <strong>Your Artwork Rights:</strong> The actual text prompts generated on our site are design templates to stimulate drawing ideas. Any drawings, sketches, paintings, illustrations, or digital artworks you make based on prompts from our site belong entirely to you. You are free to publish, display, print, license, or sell those artworks for commercial or personal purposes.
+        </p>
+
+        <h2>3. Acceptable Use</h2>
+        <p>
+          You agree not to crawl, scrape, or programmatically download the database of drawing prompts from this site for the purpose of copying, replicating, or launching a competing prompt generator app. You may not use this website in any way that causes, or may cause, damage to the website or impairment of the availability or accessibility of drawingpromptgenerator.com.
+        </p>
+
+        <h2>4. Disclaimer of Warranties</h2>
+        <p>
+          This website is provided "as is" without any representations or warranties, express or implied. Drawing Prompt Generator makes no representations or warranties in relation to this website or the information and materials provided on this website. We do not warrant that this website will be constantly available, or that the content is error-free.
+        </p>
+
+        <h2>5. Contact Information</h2>
+        <p>
+          If you have any questions about these Terms of Service, please email us at <a href="mailto:terms@drawingpromptgenerator.com">terms@drawingpromptgenerator.com</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .legal-page {
+    padding: 60px 0 80px 0;
+  }
+
+  .container-narrow {
+    max-width: 800px;
+  }
+
+  .legal-header {
+    margin-bottom: 40px;
+  }
+
+  .legal-title {
+    font-size: 2.75rem;
+    letter-spacing: -0.02em;
+    margin-bottom: 8px;
+  }
+
+  .legal-subtitle {
+    font-size: 0.95rem;
+    color: var(--text-light);
+  }
+
+  .legal-content-card {
+    padding: 40px;
+  }
+
+  .legal-content-card h2 {
+    font-size: 1.35rem;
+    margin-top: 32px;
+    margin-bottom: 12px;
+    color: var(--text);
+  }
+
+  .legal-content-card p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 16px;
+    color: var(--text-muted);
+  }
+
+  .legal-content-card ul {
+    margin-bottom: 16px;
+    padding-left: 24px;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+  }
+
+  .legal-content-card li {
+    margin-bottom: 8px;
+  }
+
+  @media (max-width: 640px) {
+    .legal-content-card {
+      padding: 24px 16px;
+    }
+    
+    .legal-title {
+      font-size: 2.25rem;
+    }
+  }
+</style>

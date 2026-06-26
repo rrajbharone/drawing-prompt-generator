@@ -1,0 +1,181 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const title = "HTML Sitemap — Drawing Prompt Generator";
+const description = "Access all pages and category pre-filters on the Drawing Prompt Generator website. Find quick links to start sketching characters, monsters, or landscapes.";
+
+const categoriesList = [
+  'Characters', 'Fantasy', 'Animals', 'Nature', 'Landscape', 'Sci-Fi', 'Horror', 
+  'Cute', 'Objects', 'Architecture', 'Food', 'Vehicles', 'Daily Challenge', 'Anime', 
+  'Manga', 'Comics', 'Pixel Art', 'Steampunk', 'Cyberpunk', 'Mythology', 'Monsters', 
+  'Dragons', 'Magic', 'Medieval', 'Space', 'Underwater', 'Dinosaurs', 'Fashion', 
+  'Portraits', 'Abstract', 'Robots', 'Weapons', 'Environment', 'Cities', 'Islands', 
+  'Magic Items', 'Seasonal', 'Halloween', 'Christmas', 'Simple Sketch', 'Advanced Concept Art'
+];
+---
+
+<Layout title={title} description={description}>
+  <div class="sitemap-page">
+    <div class="container container-narrow">
+      <div class="text-center sitemap-header">
+        <h1 class="sitemap-title">Website Sitemap</h1>
+        <p class="sitemap-subtitle">A direct list of all pages, articles, and category channels on our site.</p>
+      </div>
+
+      <div class="card sitemap-card">
+        <!-- Main Pages -->
+        <section class="sitemap-section">
+          <h2>Main Navigation Pages</h2>
+          <ul class="sitemap-list">
+            <li><a href="/">Home — Drawing Prompt Generator Hub</a></li>
+            <li><a href="/categories">Browse Categories Page</a></li>
+            <li><a href="/random">Random Prompt Roller Page</a></li>
+            <li><a href="/about">About Us & Project Mission</a></li>
+            <li><a href="/faq">Frequently Asked Questions (FAQ)</a></li>
+            <li><a href="/contact">Contact Support & Feedback</a></li>
+          </ul>
+        </section>
+
+        <!-- Category Pre-filters -->
+        <section class="sitemap-section">
+          <h2>Art Prompt Categories (Pre-Filtered Channels)</h2>
+          <p class="sitemap-section-desc">Open the generator directly configured for these specific art themes:</p>
+          <div class="sitemap-categories-grid">
+            {categoriesList.map(cat => (
+              <a href={`/?category=${encodeURIComponent(cat)}`} class="sitemap-cat-link">
+                ✏️ {cat} Prompts
+              </a>
+            ))}
+          </div>
+        </section>
+
+        <!-- Legal pages -->
+        <section class="sitemap-section">
+          <h2>Legal & Compliance</h2>
+          <ul class="sitemap-list">
+            <li><a href="/privacy">Privacy Policy</a></li>
+            <li><a href="/terms">Terms of Service</a></li>
+            <li><a href="/disclaimer">Disclaimer Notice</a></li>
+            <li><a href="/sitemap-index.xml" target="_blank">XML Sitemap Index (For Search Crawlers)</a></li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .sitemap-page {
+    padding: 60px 0 80px 0;
+  }
+
+  .container-narrow {
+    max-width: 800px;
+  }
+
+  .sitemap-header {
+    margin-bottom: 40px;
+  }
+
+  .sitemap-title {
+    font-size: 2.75rem;
+    letter-spacing: -0.02em;
+    margin-bottom: 8px;
+  }
+
+  .sitemap-subtitle {
+    font-size: 1.05rem;
+    color: var(--text-muted);
+  }
+
+  .sitemap-card {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+  }
+
+  .sitemap-section h2 {
+    font-size: 1.35rem;
+    margin-bottom: 16px;
+    color: var(--text);
+    border-bottom: 2px solid var(--background);
+    padding-bottom: 8px;
+  }
+
+  .sitemap-section-desc {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-bottom: 16px;
+  }
+
+  .sitemap-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .sitemap-list li {
+    font-size: 0.95rem;
+    position: relative;
+    padding-left: 20px;
+  }
+
+  .sitemap-list li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: var(--primary);
+    font-weight: 700;
+  }
+
+  .sitemap-list a {
+    color: var(--text-muted);
+    font-weight: 500;
+  }
+
+  .sitemap-list a:hover {
+    color: var(--primary);
+    text-decoration: underline;
+  }
+
+  .sitemap-categories-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+
+  .sitemap-cat-link {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    background-color: var(--background);
+    padding: 8px 12px;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border-color);
+    transition: var(--transition-fast);
+  }
+
+  .sitemap-cat-link:hover {
+    background-color: #FFFFFF;
+    border-color: var(--primary);
+    color: var(--primary);
+    transform: translateY(-2px);
+  }
+
+  @media (max-width: 768px) {
+    .sitemap-categories-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .sitemap-categories-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .sitemap-card {
+      padding: 24px 16px;
+    }
+  }
+</style>

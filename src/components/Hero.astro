@@ -1,0 +1,131 @@
+---
+---
+
+<section class="hero-section">
+  <div class="container hero-container text-center">
+    <div class="hero-badge badge badge-primary">Spark Your Creativity</div>
+    <h1 class="hero-title">
+      Generate Creative <span class="highlight">Drawing Prompts</span> Instantly
+    </h1>
+    <p class="hero-subtitle">
+      Get unlimited drawing ideas for beginners and professionals. Generate random drawing prompts for characters, fantasy, animals, landscapes, objects, daily practice, and more.
+    </p>
+    <div class="hero-actions">
+      <a href="#generator-box" class="btn btn-primary btn-lg" id="hero-primary-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-zap"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+        Generate Prompt
+      </a>
+      <button class="btn btn-secondary btn-lg" id="hero-random-cat-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layers"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+        Random Category
+      </button>
+    </div>
+  </div>
+</section>
+
+<style>
+  .hero-section {
+    padding: 90px 0 60px 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero-container {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-badge {
+    margin-bottom: 24px;
+    animation: fadeInDown 0.6s ease-out;
+  }
+
+  .hero-title {
+    font-size: 3.25rem;
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: -0.03em;
+    margin-bottom: 24px;
+    animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .highlight {
+    background: linear-gradient(120deg, var(--primary) 0%, var(--secondary) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+  }
+
+  .hero-subtitle {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: var(--text-muted);
+    margin-bottom: 40px;
+    max-width: 680px;
+    animation: fadeInUp 1s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    animation: fadeInUp 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .btn-lg {
+    padding: 14px 28px;
+    font-size: 1.05rem;
+  }
+
+  /* Entrance animations */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .hero-section {
+      padding: 60px 0 40px 0;
+    }
+    
+    .hero-title {
+      font-size: 2.25rem;
+    }
+    
+    .hero-subtitle {
+      font-size: 1rem;
+      margin-bottom: 30px;
+    }
+    
+    .hero-actions {
+      flex-direction: column;
+      width: 100%;
+      max-width: 320px;
+    }
+    
+    .btn {
+      width: 100%;
+    }
+  }
+</style>

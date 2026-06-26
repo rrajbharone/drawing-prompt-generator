@@ -1,0 +1,176 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const title = "About Us — Drawing Prompt Generator";
+const description = "Learn more about the Drawing Prompt Generator project. We help concept artists, illustrators, students, and hobbyists overcome art block with creative ideas.";
+---
+
+<Layout title={title} description={description}>
+  <div class="about-page-container">
+    <div class="container container-narrow">
+      <div class="text-center about-header">
+        <div class="badge badge-primary">Our Mission</div>
+        <h1 class="about-title">About Drawing Prompt Generator</h1>
+        <p class="about-intro">Empowering artists to overcome the blank canvas anxiety and build drawing consistency.</p>
+      </div>
+
+      <div class="card content-card">
+        <section class="about-section">
+          <h2>Why We Built This Tool</h2>
+          <p>
+            Every artist has faced the dread of a blank page. You sit down with your sketchbook or draw tablet, pen in hand, ready to create—but your mind goes blank. You spend thirty minutes scrolling through social media looking for inspiration, losing the initial creative impulse.
+          </p>
+          <p>
+            We built <strong>Drawing Prompt Generator</strong> to solve this exact problem. By delivering instant, creative, and structured drawing ideas, we bypass the decision-paralysis phase, allowing you to jump straight into the act of drawing.
+          </p>
+        </section>
+
+        <section class="about-section">
+          <h2>Procedural Creativity</h2>
+          <p>
+            Unlike static list sheets that repeat the same ideas, our generator combines over 500 hand-designed core subjects with dynamic descriptors: action modifiers, environmental backdrops, stylistic guidelines, lighting conditions, and mood tags. 
+          </p>
+          <p>
+            This hybrid approach ensures that every click yields a fresh, inspire-rich scene structure. You can practice everything from simple cartoon animal drawings to advanced realistic concept illustrations.
+          </p>
+        </section>
+
+        <section class="about-section">
+          <h2>Who Can Benefit?</h2>
+          <div class="audience-grid">
+            <div class="audience-item">
+              <h4>🎨 Concept Artists</h4>
+              <p>Practice narrative storytelling by illustrating complex environments and character actions.</p>
+            </div>
+            <div class="audience-item">
+              <h4>✏️ Sketchbook Fans</h4>
+              <p>Keep a daily drawing journal by generating a quick sketch idea every morning.</p>
+            </div>
+            <div class="audience-item">
+              <h4>🎓 Art Students</h4>
+              <p>Target your weaknesses by filtering by difficulty and style to practice specific rendering forms.</p>
+            </div>
+            <div class="audience-item">
+              <h4>🤖 AI Art Creators</h4>
+              <p>Explore creative scene layouts and visual descriptions to compose prompt inputs for image generators.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="about-section text-center action-box">
+          <h3>Ready to start creating?</h3>
+          <p>Launch the prompt generator and see where your imagination takes you today.</p>
+          <a href="/#generator-box" class="btn btn-primary">Try the Generator</a>
+        </section>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .about-page-container {
+    padding: 60px 0;
+  }
+
+  .container-narrow {
+    max-width: 800px;
+  }
+
+  .about-header {
+    margin-bottom: 40px;
+  }
+
+  .about-title {
+    font-size: 2.75rem;
+    margin-top: 12px;
+    margin-bottom: 16px;
+    letter-spacing: -0.02em;
+  }
+
+  .about-intro {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+  }
+
+  .content-card {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .about-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+    color: var(--text);
+  }
+
+  .about-section p {
+    margin-bottom: 16px;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--text-muted);
+  }
+
+  .about-section p strong {
+    color: var(--text);
+  }
+
+  .audience-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .audience-item {
+    background-color: var(--background);
+    padding: 20px;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-color);
+  }
+
+  .audience-item h4 {
+    font-size: 1.05rem;
+    margin-bottom: 8px;
+    font-weight: 700;
+  }
+
+  .audience-item p {
+    font-size: 0.875rem;
+    margin-bottom: 0;
+    line-height: 1.5;
+  }
+
+  .action-box {
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: var(--radius-md);
+    background-color: rgba(109, 94, 248, 0.03);
+    border: 1px dashed rgba(109, 94, 248, 0.2);
+  }
+
+  .action-box h3 {
+    margin-bottom: 8px;
+  }
+
+  .action-box p {
+    margin-bottom: 20px;
+  }
+
+  /* Responsive styling */
+  @media (max-width: 640px) {
+    .content-card {
+      padding: 24px 16px;
+    }
+    
+    .about-title {
+      font-size: 2.25rem;
+    }
+    
+    .audience-grid {
+      grid-template-cols: 1fr;
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

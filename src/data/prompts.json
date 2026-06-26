@@ -1,0 +1,4682 @@
+[
+  {
+    "id": "p-96",
+    "text": "A futuristic railgun powered by glowing plasma tubes, showing mechanical details.",
+    "category": "Weapons",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Sci-Fi",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-117",
+    "text": "A bustling village square in the snow, with a giant Christmas tree, glowing stalls, and shoppers.",
+    "category": "Christmas",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Anime",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-401",
+    "text": "Draw an elven herbalist holding in a neon-drenched cyberpunk alley, with roots and vines wrapped around them.",
+    "category": "Pixel Art",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Cartoon",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-325",
+    "text": "Draw a deep-sea diver in retro gear painting at the bottom of a bioluminescent ocean trench, with a soft pastel color scheme.",
+    "category": "Landscape",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-344",
+    "text": "Draw a blind swordmaster sleeping on in a medieval castle ruins, detailed with metallic gold filigree.",
+    "category": "Comics",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Cartoon",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-272",
+    "text": "Draw a mushroom-folk villager sleeping on in a bustling magical night market, detailed with metallic gold filigree.",
+    "category": "Simple Sketch",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-294",
+    "text": "Draw a mysterious plague doctor sleeping on inside a cozy subterranean library, with soft light reflecting off wet pavement.",
+    "category": "Nature",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-290",
+    "text": "Draw a neon-decked street hacker repairing in a cozy attic during a thunderstorm, bathed in dramatic golden hour sunlight.",
+    "category": "Cyberpunk",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Anime",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-277",
+    "text": "Draw a weary time-traveler repairing in a medieval castle ruins, under a starry sky with a nebula visible.",
+    "category": "Islands",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-265",
+    "text": "Draw a turtle carrying a small garden looking out at in a bustling magical night market, under a starry sky with a nebula visible.",
+    "category": "Monsters",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Dark",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-266",
+    "text": "Draw an elven herbalist floating above in a neon-drenched cyberpunk alley, with a soft pastel color scheme.",
+    "category": "Portraits",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-274",
+    "text": "Draw a floating glowing orb casting a spell on on the rings of Saturn, with glowing embers floating around.",
+    "category": "Weapons",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-320",
+    "text": "Draw an elven herbalist interacting with on the rings of Saturn, under a starry sky with a nebula visible.",
+    "category": "Steampunk",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-282",
+    "text": "Draw a mushroom-folk villager casting a spell on inside a colossal clock tower, detailed with metallic gold filigree.",
+    "category": "Food",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-313",
+    "text": "Draw a kraken puppy examining at the bottom of a bioluminescent ocean trench, with intricate runic engravings.",
+    "category": "Horror",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-288",
+    "text": "Draw a wizard working at a modern coffee shop guarding on a sun-drenched Mediterranean balcony, with dust motes dancing in sunbeams.",
+    "category": "Food",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-287",
+    "text": "Draw a robotic street artist discovering in a cozy attic during a thunderstorm, detailed with metallic gold filigree.",
+    "category": "Steampunk",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-330",
+    "text": "Draw a weathered compass painting in a neon-drenched cyberpunk alley, showing signs of heavy wear and tear.",
+    "category": "Magic Items",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-307",
+    "text": "Draw a werewolf discovering inside a colossal clock tower, showing signs of heavy wear and tear.",
+    "category": "Horror",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-270",
+    "text": "Draw a nomadic desert trader admiring in a futuristic botanical garden dome, with glowing embers floating around.",
+    "category": "Portraits",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-130",
+    "text": "Draw a colossal iron sentinel examining inside a cozy subterranean library, with dust motes dancing in sunbeams.",
+    "category": "Sci-Fi",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Sci-Fi",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-284",
+    "text": "Draw a mushroom-folk villager repairing inside a cozy subterranean library, under a starry sky with a nebula visible.",
+    "category": "Environment",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-316",
+    "text": "Draw a scrap-metal mechanical dog repairing on the rings of Saturn, surrounded by floating paper cranes.",
+    "category": "Space",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Sci-Fi",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-299",
+    "text": "Draw an elven herbalist reading inside a cozy subterranean library, shrouded in dark mysterious shadows.",
+    "category": "Food",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-114",
+    "text": "A gothic graveyard with ancient tombstones, rising spirits, and gnarled leafless trees.",
+    "category": "Halloween",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-38",
+    "text": "Incorporate three random elements: an hourglass, a feather, and a key, into a single cohesive scene.",
+    "category": "Daily Challenge",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-101",
+    "text": "A bustling futuristic metropolis with multiple levels of sky-bridges and flying vehicles.",
+    "category": "Cities",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Sci-Fi",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-44",
+    "text": "A close-up manga-style eye expressing deep sadness, with tears reflecting light.",
+    "category": "Manga",
+    "difficulty": "Beginner",
+    "length": "Short",
+    "style": "Anime",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-327",
+    "text": "Draw a robotic street artist sleeping on on the rings of Saturn, with glowing embers floating around.",
+    "category": "Fashion",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-162",
+    "text": "Draw a gothic vampire cellist interacting with in a bustling magical night market, shrouded in dark mysterious shadows.",
+    "category": "Food",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-317",
+    "text": "Draw a chameleon examining on a sun-drenched Mediterranean balcony, surrounded by glowing butterflies.",
+    "category": "Dinosaurs",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-304",
+    "text": "Draw a neon-decked street hacker looking out at in a bustling magical night market, surrounded by glowing butterflies.",
+    "category": "Comics",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-309",
+    "text": "Draw a werewolf interacting with inside a colossal clock tower, featuring vibrant neon reflections.",
+    "category": "Halloween",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-321",
+    "text": "Draw a drone delivery unit with personality admiring in a futuristic botanical garden dome, detailed with metallic gold filigree.",
+    "category": "Sci-Fi",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Sci-Fi",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-326",
+    "text": "Draw a dwarven blacksmith casting a spell on inside a colossal clock tower, bathed in dramatic golden hour sunlight.",
+    "category": "Medieval",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-306",
+    "text": "Draw a wizard working at a modern coffee shop holding inside a forgotten cathedral overgrown with ivy, with intricate runic engravings.",
+    "category": "Characters",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Dark",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-57",
+    "text": "A cybernetically enhanced bodyguard standing under neon billboards, with glowing mechanical arms.",
+    "category": "Cyberpunk",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-298",
+    "text": "Draw a lion with a mane of stardust guarding at the bottom of a bioluminescent ocean trench, under a starry sky with a nebula visible.",
+    "category": "Dinosaurs",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Cute",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-84",
+    "text": "An elegant Victorian ballgown adorned with intricate silver clockwork patterns and lace.",
+    "category": "Fashion",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-322",
+    "text": "Draw a cybernetic humanoid dancer examining in a medieval castle ruins, surrounded by glowing butterflies.",
+    "category": "Sci-Fi",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Sci-Fi",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-37",
+    "text": "Draw something you can see from your desk, but add a fantasy twist (e.g. glowing vines, floating parts).",
+    "category": "Daily Challenge",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-314",
+    "text": "Draw a gothic vampire cellist guarding inside a colossal clock tower, showing signs of heavy wear and tear.",
+    "category": "Christmas",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-95",
+    "text": "An ornate scimitar with a blade forged from dark damascus steel and a ruby-encrusted hilt.",
+    "category": "Weapons",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-279",
+    "text": "Draw a robotic street artist admiring on the rings of Saturn, under a starry sky with a nebula visible.",
+    "category": "Architecture",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-69",
+    "text": "A wizard casting a spell that turns a swarm of dark bats into glowing blue butterflies.",
+    "category": "Magic",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Anime",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-68",
+    "text": "An ancient stone altar in a forest, with floating magical runes circling a glowing relic.",
+    "category": "Magic",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-278",
+    "text": "Draw a wizard working at a modern coffee shop examining inside a cozy subterranean library, surrounded by glowing butterflies.",
+    "category": "Food",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Cartoon",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-329",
+    "text": "Draw a forest druid repairing on the rings of Saturn, detailed with metallic gold filigree.",
+    "category": "Magic",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-286",
+    "text": "Draw an elven herbalist casting a spell on in a futuristic botanical garden dome, under a starry sky with a nebula visible.",
+    "category": "Anime",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Cartoon",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-285",
+    "text": "Draw a gothic vampire cellist repairing in a bustling magical night market, surrounded by glowing butterflies.",
+    "category": "Steampunk",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-43",
+    "text": "A dramatic black-and-white manga page showing a character discovering a hidden doorway.",
+    "category": "Manga",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Anime",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-98",
+    "text": "A cozy room inside a lighthouse during a stormy night, with warm light reflecting on wooden floors.",
+    "category": "Environment",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-283",
+    "text": "Draw an elven herbalist floating above in a medieval castle ruins, showing signs of heavy wear and tear.",
+    "category": "Architecture",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-280",
+    "text": "Draw a nomadic desert trader repairing inside a forgotten cathedral overgrown with ivy, with a soft pastel color scheme.",
+    "category": "Pixel Art",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-100",
+    "text": "A simple sketch of a quiet European canal street with small cafes and flower boxes.",
+    "category": "Cities",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-75",
+    "text": "A massive stellar nebula shaped like an eye, birth-giving to a new star.",
+    "category": "Space",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-468",
+    "text": "Draw a pixie rogue chasing in a bustling magical night market, surrounded by floating paper cranes.",
+    "category": "Medieval",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-453",
+    "text": "Draw a vintage steam-powered butler guarding on a sun-drenched Mediterranean balcony, showing signs of heavy wear and tear.",
+    "category": "Space",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Sci-Fi",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-65",
+    "text": "An epic battle between a fire dragon and an ice dragon over a smoking volcano.",
+    "category": "Dragons",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-97",
+    "text": "A quiet pathway through a bamboo forest, with sunlight filtering through the leaves.",
+    "category": "Environment",
+    "difficulty": "Beginner",
+    "length": "Short",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-119",
+    "text": "A quick gesture drawing of a flying bird, capturing the motion of its wings.",
+    "category": "Simple Sketch",
+    "difficulty": "Beginner",
+    "length": "Short",
+    "style": "Cartoon",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-427",
+    "text": "Draw a retired space pirate holding on a snowy mountaintop overlooking a sea of clouds, showing signs of heavy wear and tear.",
+    "category": "Characters",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Cute",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-40",
+    "text": "A magical schoolgirl standing on a rooftop at twilight, her wand glowing with stellar energy.",
+    "category": "Anime",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-397",
+    "text": "Draw a griffin rider holding in a cozy attic during a thunderstorm, with intricate runic engravings.",
+    "category": "Medieval",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-36",
+    "text": "A simple wooden sailboat floating in a sea of clouds under a golden sunset.",
+    "category": "Vehicles",
+    "difficulty": "Beginner",
+    "length": "Short",
+    "style": "Anime",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-66",
+    "text": "A Chinese dragon wrapping around a red pagoda temple under a full moon.",
+    "category": "Dragons",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-456",
+    "text": "Draw a celestial explorer guarding inside a cozy subterranean library, under a starry sky with a nebula visible.",
+    "category": "Characters",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-5",
+    "text": "A noble knight sitting by a campfire with a small, friendly baby dragon roasted marshmallows.",
+    "category": "Fantasy",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-72",
+    "text": "A grand banquet hall with long tables filled with food, lit by massive iron chandeliers.",
+    "category": "Medieval",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-291",
+    "text": "Draw a clockwork librarian examining inside a cozy subterranean library, detailed with metallic gold filigree.",
+    "category": "Underwater",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Cartoon",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-308",
+    "text": "Draw a celestial explorer floating above in a neon-drenched cyberpunk alley, with intricate runic engravings.",
+    "category": "Seasonal",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-14",
+    "text": "A quiet, snowy village tucked inside a valley under a vibrant green aurora borealis.",
+    "category": "Landscape",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-89",
+    "text": "An artistic representation of the feeling of listening to jazz music using shapes and colors.",
+    "category": "Abstract",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-416",
+    "text": "Draw a deep-sea diver in retro gear casting a spell on in a medieval castle ruins, surrounded by floating paper cranes.",
+    "category": "Abstract",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-426",
+    "text": "Draw a retired space pirate examining at the edge of a crumbling floating island, shrouded in dark mysterious shadows.",
+    "category": "Architecture",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-312",
+    "text": "Draw a weary time-traveler admiring in a cozy attic during a thunderstorm, bathed in dramatic golden hour sunlight.",
+    "category": "Anime",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-419",
+    "text": "Draw a mushroom-folk villager repairing in a bustling magical night market, showing signs of heavy wear and tear.",
+    "category": "Underwater",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-93",
+    "text": "A sleek, multi-limbed assembly robot constructing a mechanical bird in a clean white lab.",
+    "category": "Robots",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-10",
+    "text": "A detailed study of bioluminescent mushrooms growing on a damp, mossy log.",
+    "category": "Nature",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-30",
+    "text": "A minimalist white concrete villa perched precariously on a cliff overlooking the ocean.",
+    "category": "Architecture",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-413",
+    "text": "Draw a nomadic desert trader guarding in a bustling magical night market, surrounded by glowing butterflies.",
+    "category": "Characters",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-446",
+    "text": "Draw a tiny micro-bot explorer painting on a snowy mountaintop overlooking a sea of clouds, featuring vibrant neon reflections.",
+    "category": "Sci-Fi",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Sci-Fi",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-323",
+    "text": "Draw a siren singer guarding in an ancient desert oasis under three moons, showing signs of heavy wear and tear.",
+    "category": "Medieval",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-301",
+    "text": "Draw a clockwork librarian repairing at the edge of a crumbling floating island, bathed in dramatic golden hour sunlight.",
+    "category": "Pixel Art",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Dark",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-74",
+    "text": "An alien city built inside a crater on a moon, with dome structures and flying shuttles.",
+    "category": "Space",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Sci-Fi",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-50",
+    "text": "A side-scrolling mockup of a cyberpunk street scene with glowing neon shops and rain puddles.",
+    "category": "Pixel Art",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Cartoon",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-418",
+    "text": "Draw a humpback whale meditating near in an ancient desert oasis under three moons, bathed in dramatic golden hour sunlight.",
+    "category": "Monsters",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-281",
+    "text": "Draw a weathered compass sleeping on in a neon-drenched cyberpunk alley, shrouded in dark mysterious shadows.",
+    "category": "Objects",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Cartoon",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-433",
+    "text": "Draw a neon-decked street hacker examining inside a cozy subterranean library, with glowing embers floating around.",
+    "category": "Comics",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-53",
+    "text": "A steampunk aviator with brass goggles and a leather coat, posing in front of a giant airship.",
+    "category": "Steampunk",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-77",
+    "text": "The ruins of Atlantis, with Greek columns overgrown with coral and colorful fish swimming by.",
+    "category": "Underwater",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-305",
+    "text": "Draw a neon-decked street hacker painting in a bustling magical night market, surrounded by glowing butterflies.",
+    "category": "Architecture",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-276",
+    "text": "Draw a celestial explorer examining on a sun-drenched Mediterranean balcony, with intricate runic engravings.",
+    "category": "Pixel Art",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Cartoon",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-411",
+    "text": "Draw a deep-sea diver in retro gear sleeping on inside a colossal clock tower, with glowing embers floating around.",
+    "category": "Pixel Art",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-273",
+    "text": "Draw a blind swordmaster holding at the edge of a crumbling floating island, detailed with metallic gold filigree.",
+    "category": "Abstract",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Cartoon",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-28",
+    "text": "A towering gothic cathedral built entirely out of dark obsidian rock and blue crystal.",
+    "category": "Architecture",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-24",
+    "text": "A chubby kitten wearing a wizard robe, trying to catch a floating magic bubble.",
+    "category": "Cute",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-461",
+    "text": "Draw a gothic vampire cellist examining at the bottom of a bioluminescent ocean trench, surrounded by glowing butterflies.",
+    "category": "Seasonal",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-424",
+    "text": "Draw a forest druid chasing in a bustling magical night market, detailed with metallic gold filigree.",
+    "category": "Mythology",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-296",
+    "text": "Draw a gargoyle looking out at inside a cozy subterranean library, with soft light reflecting off wet pavement.",
+    "category": "Halloween",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-293",
+    "text": "Draw a deep-sea diver in retro gear examining at the edge of a crumbling floating island, with dust motes dancing in sunbeams.",
+    "category": "Characters",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-83",
+    "text": "A cyberpunk streetwear outfit featuring a glowing LED jacket, baggy cargo pants, and high-tops.",
+    "category": "Fashion",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-35",
+    "text": "A massive steampunk train traveling across a stone arch bridge over a deep mountain canyon.",
+    "category": "Vehicles",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-408",
+    "text": "Draw a gothic vampire cellist chasing on a sun-drenched Mediterranean balcony, with intricate runic engravings.",
+    "category": "Cities",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-11",
+    "text": "A hidden waterfall cascading into a crystal clear pool surrounded by glowing blue flowers.",
+    "category": "Nature",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-432",
+    "text": "Draw a Victorian detective chasing in an ancient desert oasis under three moons, bathed in dramatic golden hour sunlight.",
+    "category": "Steampunk",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-267",
+    "text": "Draw a weary time-traveler painting inside a forgotten cathedral overgrown with ivy, with roots and vines wrapped around them.",
+    "category": "Advanced Concept Art",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-206",
+    "text": "Draw a wizard working at a modern coffee shop navigating in a cozy attic during a thunderstorm, with intricate runic engravings.",
+    "category": "Manga",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Cute",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-441",
+    "text": "Draw a Victorian detective sleeping on at the bottom of a bioluminescent ocean trench, with intricate runic engravings.",
+    "category": "Characters",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-168",
+    "text": "Draw an archmage reading in a medieval castle ruins, surrounded by floating paper cranes.",
+    "category": "Fantasy",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-118",
+    "text": "A quick line-art sketch of a coffee mug with steam rising in delicate swirls.",
+    "category": "Simple Sketch",
+    "difficulty": "Beginner",
+    "length": "Short",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-297",
+    "text": "Draw a weary time-traveler navigating in a cozy attic during a thunderstorm, with dust motes dancing in sunbeams.",
+    "category": "Abstract",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Cartoon",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-2",
+    "text": "A clockwork librarian dusting ancient books, with gears visible in their wooden joints.",
+    "category": "Characters",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-156",
+    "text": "Draw a blind swordmaster examining in a bustling magical night market, bathed in dramatic golden hour sunlight.",
+    "category": "Food",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-319",
+    "text": "Draw a robotic street artist sleeping on in a futuristic botanical garden dome, with soft light reflecting off wet pavement.",
+    "category": "Pixel Art",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-457",
+    "text": "Draw a flying steampunk airship reading on a snowy mountaintop overlooking a sea of clouds, shrouded in dark mysterious shadows.",
+    "category": "Vehicles",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Anime",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-442",
+    "text": "Draw a deep-sea diver in retro gear navigating on a snowy mountaintop overlooking a sea of clouds, featuring vibrant neon reflections.",
+    "category": "Islands",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Dark",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-169",
+    "text": "Draw a mushroom-folk villager interacting with inside a forgotten cathedral overgrown with ivy, with roots and vines wrapped around them.",
+    "category": "Steampunk",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Cartoon",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-39",
+    "text": "Create a character design using only three colors: Navy Blue, Gold, and Crimson Red.",
+    "category": "Daily Challenge",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-91",
+    "text": "A small, rusty robot trying to water a single yellow flower in a post-apocalyptic wasteland.",
+    "category": "Robots",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-22",
+    "text": "A tiny frog sitting under a mushroom umbrella while it rains glowing raindrops.",
+    "category": "Cute",
+    "difficulty": "Beginner",
+    "length": "Short",
+    "style": "Cute",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-303",
+    "text": "Draw a cybernetic humanoid dancer sleeping on in an ancient desert oasis under three moons, surrounded by glowing butterflies.",
+    "category": "Robots",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Sci-Fi",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-32",
+    "text": "A steaming bowl of fantasy ramen with dragon-egg soft boils and swirling blue broth.",
+    "category": "Food",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-175",
+    "text": "Draw a dwarven blacksmith reading in a neon-drenched cyberpunk alley, detailed with metallic gold filigree.",
+    "category": "Mythology",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-463",
+    "text": "Draw a mushroom-folk villager sleeping on at the bottom of a bioluminescent ocean trench, bathed in dramatic golden hour sunlight.",
+    "category": "Abstract",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-311",
+    "text": "Draw a griffin rider interacting with at the bottom of a bioluminescent ocean trench, showing signs of heavy wear and tear.",
+    "category": "Fantasy",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-295",
+    "text": "Draw a gothic vampire cellist meditating near at the edge of a crumbling floating island, featuring vibrant neon reflections.",
+    "category": "Portraits",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Cute",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-153",
+    "text": "Draw a celestial guardian sleeping on in an ancient desert oasis under three moons, with a soft pastel color scheme.",
+    "category": "Mythology",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-183",
+    "text": "Draw a mushroom-folk villager looking out at on the rings of Saturn, surrounded by floating paper cranes.",
+    "category": "Abstract",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-116",
+    "text": "A cozy stone fireplace decorated with stockings, with a sleeping dog nearby and snow falling outside.",
+    "category": "Christmas",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-318",
+    "text": "Draw a rock golem admiring in a bustling magical night market, surrounded by floating paper cranes.",
+    "category": "Halloween",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-107",
+    "text": "A leather-bound journal with a lock shaped like an eye that blinks when you touch it.",
+    "category": "Magic Items",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-62",
+    "text": "A majestic griffin with the body of a lion and head of a golden eagle, nesting on a cliff.",
+    "category": "Monsters",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-151",
+    "text": "Draw a clockwork librarian repairing at the edge of a crumbling floating island, with roots and vines wrapped around them.",
+    "category": "Fashion",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Anime",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-181",
+    "text": "Draw a robotic street artist chasing in a misty redwood forest, with soft light reflecting off wet pavement.",
+    "category": "Islands",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-269",
+    "text": "Draw a griffin rider interacting with in a neon-drenched cyberpunk alley, under a starry sky with a nebula visible.",
+    "category": "Dragons",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-110",
+    "text": "A spring meadow filled with blooming wildflowers, butterflies, and a gentle breeze.",
+    "category": "Seasonal",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-187",
+    "text": "Draw a clockwork librarian navigating inside a colossal clock tower, with soft light reflecting off wet pavement.",
+    "category": "Food",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-454",
+    "text": "Draw an elven herbalist examining in a neon-drenched cyberpunk alley, showing signs of heavy wear and tear.",
+    "category": "Comics",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-197",
+    "text": "Draw a clockwork librarian meditating near in a medieval castle ruins, surrounded by glowing butterflies.",
+    "category": "Islands",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Cartoon",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-300",
+    "text": "Draw a mushroom-folk villager examining in a medieval castle ruins, with glowing embers floating around.",
+    "category": "Manga",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-21",
+    "text": "A detailed portrait of a gothic vampire count, with roses that wither at his touch.",
+    "category": "Horror",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-485",
+    "text": "Draw an elven herbalist guarding in a medieval castle ruins, featuring vibrant neon reflections.",
+    "category": "Daily Challenge",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-302",
+    "text": "Draw a neon-decked street hacker reading inside a colossal clock tower, detailed with metallic gold filigree.",
+    "category": "Landscape",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-26",
+    "text": "A glass terrarium holding a miniature storm cloud that rains and shoots tiny lightning bolts.",
+    "category": "Objects",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-502",
+    "text": "Draw a turtle carrying a small garden chasing on a snowy mountaintop overlooking a sea of clouds, detailed with metallic gold filigree.",
+    "category": "Animals",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-19",
+    "text": "A shadow creature with glowing white eyes peering from a half-open closet door.",
+    "category": "Horror",
+    "difficulty": "Beginner",
+    "length": "Short",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-178",
+    "text": "Draw a wizard working at a modern coffee shop navigating at the bottom of a bioluminescent ocean trench, with roots and vines wrapped around them.",
+    "category": "Seasonal",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-292",
+    "text": "Draw a gothic horse-drawn carriage navigating on the rings of Saturn, with dust motes dancing in sunbeams.",
+    "category": "Vehicles",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-87",
+    "text": "A fantasy portrait of a moon elf princess, with silver hair and glowing white patterns on her skin.",
+    "category": "Portraits",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Anime",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-470",
+    "text": "Draw a kraken puppy meditating near inside a cozy subterranean library, showing signs of heavy wear and tear.",
+    "category": "Halloween",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-483",
+    "text": "Draw a neon-decked street hacker admiring at the edge of a crumbling floating island, with soft light reflecting off wet pavement.",
+    "category": "Environment",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Anime",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-510",
+    "text": "Draw a griffin rider sleeping on on a snowy mountaintop overlooking a sea of clouds, featuring vibrant neon reflections.",
+    "category": "Fantasy",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-425",
+    "text": "Draw an elven herbalist casting a spell on at the bottom of a bioluminescent ocean trench, featuring vibrant neon reflections.",
+    "category": "Islands",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Cartoon",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-403",
+    "text": "Draw a neon-decked street hacker interacting with inside a forgotten cathedral overgrown with ivy, with soft light reflecting off wet pavement.",
+    "category": "Characters",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Dark",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-67",
+    "text": "A magician's hat with glowing magical particles, cards, and a rabbit's ears popping out.",
+    "category": "Magic",
+    "difficulty": "Beginner",
+    "length": "Short",
+    "style": "Cute",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-17",
+    "text": "An astronaut exploring an alien greenhouse filled with glowing, floating flora.",
+    "category": "Sci-Fi",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-512",
+    "text": "Draw a spectral wraith painting at the bottom of a bioluminescent ocean trench, surrounded by floating paper cranes.",
+    "category": "Horror",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-163",
+    "text": "Draw a weathered compass floating above in a cozy attic during a thunderstorm, featuring vibrant neon reflections.",
+    "category": "Magic Items",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-289",
+    "text": "Draw a Victorian detective sleeping on in a cozy attic during a thunderstorm, showing signs of heavy wear and tear.",
+    "category": "Landscape",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-467",
+    "text": "Draw a wizard working at a modern coffee shop navigating at the edge of a crumbling floating island, showing signs of heavy wear and tear.",
+    "category": "Portraits",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Cute",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-455",
+    "text": "Draw a gargoyle casting a spell on inside a forgotten cathedral overgrown with ivy, bathed in dramatic golden hour sunlight.",
+    "category": "Horror",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-503",
+    "text": "Draw a mysterious plague doctor navigating at the edge of a crumbling floating island, with roots and vines wrapped around them.",
+    "category": "Islands",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Cute",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-268",
+    "text": "Draw a chameleon interacting with on a sun-drenched Mediterranean balcony, with roots and vines wrapped around them.",
+    "category": "Monsters",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Cartoon",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-18",
+    "text": "A sleek hover-car parked at a futuristic highway diner at night.",
+    "category": "Sci-Fi",
+    "difficulty": "Beginner",
+    "length": "Short",
+    "style": "Cartoon",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-196",
+    "text": "Draw a cybernetic humanoid dancer floating above at the edge of a crumbling floating island, with soft light reflecting off wet pavement.",
+    "category": "Robots",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Sci-Fi",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-133",
+    "text": "Draw a red panda looking out at in a futuristic botanical garden dome, with intricate runic engravings.",
+    "category": "Animals",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-122",
+    "text": "Environment concept art of a futuristic subterranean quarry where glowing crystals are mined.",
+    "category": "Advanced Concept Art",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-179",
+    "text": "Draw a celestial guardian repairing in a futuristic botanical garden dome, with roots and vines wrapped around them.",
+    "category": "Medieval",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-324",
+    "text": "Draw a red panda casting a spell on on a sun-drenched Mediterranean balcony, with intricate runic engravings.",
+    "category": "Animals",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-146",
+    "text": "Draw a celestial guardian painting in a misty redwood forest, with glowing embers floating around.",
+    "category": "Fantasy",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-518",
+    "text": "Draw a neon-decked street hacker chasing at the edge of a crumbling floating island, with glowing embers floating around.",
+    "category": "Christmas",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Cute",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-90",
+    "text": "A surreal landscape where gravity is distorted, with floating liquid metal spheres and stairs to nowhere.",
+    "category": "Abstract",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Dark",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-171",
+    "text": "Draw a rusty retro camper van guarding on the rings of Saturn, detailed with metallic gold filigree.",
+    "category": "Vehicles",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-88",
+    "text": "A composition of swirling geometric shapes, sharp lines, and splatters of gold and ink.",
+    "category": "Abstract",
+    "difficulty": "Beginner",
+    "length": "Short",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-398",
+    "text": "Draw a rogue shadow-dancer reading on the rings of Saturn, bathed in dramatic golden hour sunlight.",
+    "category": "Fantasy",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-328",
+    "text": "Draw an ornate mechanical music box painting inside a cozy subterranean library, surrounded by floating paper cranes.",
+    "category": "Weapons",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-198",
+    "text": "Draw a golden eagle discovering in a futuristic botanical garden dome, surrounded by floating paper cranes.",
+    "category": "Dinosaurs",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-142",
+    "text": "Draw an ornate mechanical music box floating above in a cozy attic during a thunderstorm, showing signs of heavy wear and tear.",
+    "category": "Weapons",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-158",
+    "text": "Draw a clockwork librarian looking out at inside a cozy subterranean library, with soft light reflecting off wet pavement.",
+    "category": "Environment",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Dark",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-134",
+    "text": "Draw a mushroom-folk villager casting a spell on inside a cozy subterranean library, under a starry sky with a nebula visible.",
+    "category": "Nature",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Anime",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-94",
+    "text": "A simple wooden staff with a glowing green crystal bound to the top with leather straps.",
+    "category": "Weapons",
+    "difficulty": "Beginner",
+    "length": "Short",
+    "style": "Fantasy",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-493",
+    "text": "Draw a Victorian detective casting a spell on in a futuristic botanical garden dome, showing signs of heavy wear and tear.",
+    "category": "Underwater",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-509",
+    "text": "Draw a celestial guardian examining inside a cozy subterranean library, with dust motes dancing in sunbeams.",
+    "category": "Dragons",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-473",
+    "text": "Draw a blind swordmaster repairing in an ancient desert oasis under three moons, with intricate runic engravings.",
+    "category": "Steampunk",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-519",
+    "text": "Draw a blind swordmaster examining in a neon-drenched cyberpunk alley, with glowing embers floating around.",
+    "category": "Islands",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-105",
+    "text": "A dark volcanic island surrounded by boiling seas and jagged black spires, under a red sky.",
+    "category": "Islands",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Dark",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-447",
+    "text": "Draw a retired space pirate discovering at the edge of a crumbling floating island, with a soft pastel color scheme.",
+    "category": "Landscape",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Cartoon",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-315",
+    "text": "Draw a lion with a mane of stardust admiring in a misty redwood forest, with a soft pastel color scheme.",
+    "category": "Cute",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-177",
+    "text": "Draw a flying steampunk airship discovering inside a colossal clock tower, with a soft pastel color scheme.",
+    "category": "Vehicles",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-191",
+    "text": "Draw a weary time-traveler sleeping on in a neon-drenched cyberpunk alley, shrouded in dark mysterious shadows.",
+    "category": "Underwater",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-476",
+    "text": "Draw a mushroom-folk villager repairing on the rings of Saturn, with dust motes dancing in sunbeams.",
+    "category": "Abstract",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-443",
+    "text": "Draw an ornate mechanical music box sleeping on at the edge of a crumbling floating island, under a starry sky with a nebula visible.",
+    "category": "Magic Items",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-275",
+    "text": "Draw a gothic vampire cellist admiring in an ancient desert oasis under three moons, with glowing embers floating around.",
+    "category": "Architecture",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-504",
+    "text": "Draw an elven herbalist repairing in a medieval castle ruins, with intricate runic engravings.",
+    "category": "Architecture",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-489",
+    "text": "Draw a red panda casting a spell on on a snowy mountaintop overlooking a sea of clouds, surrounded by glowing butterflies.",
+    "category": "Dinosaurs",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Dark",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-20",
+    "text": "An abandoned, overgrown Victorian asylum under a pale, cracked full moon.",
+    "category": "Horror",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-271",
+    "text": "Draw a mushroom-folk villager navigating inside a cozy subterranean library, showing signs of heavy wear and tear.",
+    "category": "Food",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-172",
+    "text": "Draw a retired space pirate navigating on the rings of Saturn, featuring vibrant neon reflections.",
+    "category": "Underwater",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-60",
+    "text": "A beautiful Valkyrie descending from the heavens on a white winged horse.",
+    "category": "Mythology",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-121",
+    "text": "Concept design sheet for an alien soldier, showing front, side, and detail views of their armor.",
+    "category": "Advanced Concept Art",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Sci-Fi",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-173",
+    "text": "Draw a mushroom-folk villager holding in a misty redwood forest, featuring vibrant neon reflections.",
+    "category": "Islands",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-415",
+    "text": "Draw a glowing glass terrarium interacting with in a cozy attic during a thunderstorm, showing signs of heavy wear and tear.",
+    "category": "Magic Items",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Anime",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-141",
+    "text": "Draw a deep-sea diver in retro gear floating above inside a colossal clock tower, with dust motes dancing in sunbeams.",
+    "category": "Seasonal",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Cartoon",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-310",
+    "text": "Draw a celestial explorer guarding on a snowy mountaintop overlooking a sea of clouds, detailed with metallic gold filigree.",
+    "category": "Simple Sketch",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Dark",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-495",
+    "text": "Draw a magical flying broom-cycle reading in a futuristic botanical garden dome, featuring vibrant neon reflections.",
+    "category": "Vehicles",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-438",
+    "text": "Draw a griffin rider holding in a cozy attic during a thunderstorm, surrounded by floating paper cranes.",
+    "category": "Medieval",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-193",
+    "text": "Draw a leather-bound spellbook sleeping on inside a cozy subterranean library, surrounded by glowing butterflies.",
+    "category": "Magic Items",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-472",
+    "text": "Draw a griffin rider repairing in a futuristic botanical garden dome, with roots and vines wrapped around them.",
+    "category": "Dragons",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-42",
+    "text": "An epic battle pose of an anime warrior charging a massive energy blast in their hands.",
+    "category": "Anime",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Anime",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-475",
+    "text": "Draw a wizard working at a modern coffee shop meditating near on the rings of Saturn, showing signs of heavy wear and tear.",
+    "category": "Architecture",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Anime",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-491",
+    "text": "Draw a shadow-beast chasing at the bottom of a bioluminescent ocean trench, surrounded by floating paper cranes.",
+    "category": "Halloween",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-192",
+    "text": "Draw a red panda discovering inside a cozy subterranean library, with dust motes dancing in sunbeams.",
+    "category": "Dinosaurs",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-365",
+    "text": "Draw an elven herbalist floating above in a futuristic botanical garden dome, detailed with metallic gold filigree.",
+    "category": "Pixel Art",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-435",
+    "text": "Draw a neon-decked street hacker examining on the rings of Saturn, showing signs of heavy wear and tear.",
+    "category": "Architecture",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-81",
+    "text": "A pack of feathered velociraptors stalking prey through a dense prehistoric fern forest.",
+    "category": "Dinosaurs",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-135",
+    "text": "Draw a rusted gardening android repairing on the rings of Saturn, showing signs of heavy wear and tear.",
+    "category": "Robots",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Sci-Fi",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-157",
+    "text": "Draw a dwarven blacksmith navigating in a medieval castle ruins, with intricate runic engravings.",
+    "category": "Medieval",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-144",
+    "text": "Draw a mysterious plague doctor casting a spell on in a bustling magical night market, with dust motes dancing in sunbeams.",
+    "category": "Landscape",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-391",
+    "text": "Draw a clockwork librarian painting inside a colossal clock tower, surrounded by floating paper cranes.",
+    "category": "Cities",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-136",
+    "text": "Draw a barn owl discovering in a cozy attic during a thunderstorm, with intricate runic engravings.",
+    "category": "Monsters",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Cartoon",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-352",
+    "text": "Draw a chimera discovering inside a cozy subterranean library, with dust motes dancing in sunbeams.",
+    "category": "Horror",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-137",
+    "text": "Draw a gothic horse-drawn carriage discovering inside a forgotten cathedral overgrown with ivy, with a soft pastel color scheme.",
+    "category": "Vehicles",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Cute",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-80",
+    "text": "A friendly long-necked Brachiosaurus eating leaves from the top of a prehistoric tree.",
+    "category": "Dinosaurs",
+    "difficulty": "Beginner",
+    "length": "Short",
+    "style": "Cute",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-167",
+    "text": "Draw a floating glowing orb sleeping on on the rings of Saturn, surrounded by floating paper cranes.",
+    "category": "Objects",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-155",
+    "text": "Draw an ornate mechanical music box admiring on a snowy mountaintop overlooking a sea of clouds, surrounded by floating paper cranes.",
+    "category": "Magic Items",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-450",
+    "text": "Draw a wizard working at a modern coffee shop painting in a bustling magical night market, under a starry sky with a nebula visible.",
+    "category": "Abstract",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-506",
+    "text": "Draw a chameleon floating above on a sun-drenched Mediterranean balcony, with roots and vines wrapped around them.",
+    "category": "Monsters",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-147",
+    "text": "Draw a lion with a mane of stardust meditating near in a futuristic botanical garden dome, with a soft pastel color scheme.",
+    "category": "Dinosaurs",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Cute",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-131",
+    "text": "Draw a humpback whale navigating in a misty redwood forest, with glowing embers floating around.",
+    "category": "Animals",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-70",
+    "text": "A bustling medieval marketplace with wooden stalls, colorful banners, and townspeople.",
+    "category": "Medieval",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-29",
+    "text": "A cozy treehouse built in the branches of a giant redwood, glowing with warm lanterns.",
+    "category": "Architecture",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Cartoon",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-469",
+    "text": "Draw a kraken puppy looking out at in a misty redwood forest, detailed with metallic gold filigree.",
+    "category": "Horror",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-387",
+    "text": "Draw a gothic vampire cellist guarding in a neon-drenched cyberpunk alley, surrounded by floating paper cranes.",
+    "category": "Cities",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-378",
+    "text": "Draw a floating glowing orb admiring on a sun-drenched Mediterranean balcony, with intricate runic engravings.",
+    "category": "Objects",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-27",
+    "text": "A detailed study of a vintage typewriter, with magical letters floating off the page.",
+    "category": "Objects",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-86",
+    "text": "A portrait of an old sailor, with deep wrinkles, a grey beard, and stories in his eyes.",
+    "category": "Portraits",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-112",
+    "text": "A spooky carved pumpkin jack-o'-lantern with purple flames flicking inside.",
+    "category": "Halloween",
+    "difficulty": "Beginner",
+    "length": "Short",
+    "style": "Cartoon",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-164",
+    "text": "Draw a forest druid holding in a medieval castle ruins, under a starry sky with a nebula visible.",
+    "category": "Dragons",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-184",
+    "text": "Draw a weathered compass reading in a cozy attic during a thunderstorm, with roots and vines wrapped around them.",
+    "category": "Magic Items",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-138",
+    "text": "Draw a chameleon holding on a snowy mountaintop overlooking a sea of clouds, with intricate runic engravings.",
+    "category": "Cute",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-56",
+    "text": "A street hacker sitting cross-legged on a rooftop, surrounded by floating holographic screens.",
+    "category": "Cyberpunk",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-189",
+    "text": "Draw a werewolf repairing inside a forgotten cathedral overgrown with ivy, with roots and vines wrapped around them.",
+    "category": "Halloween",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-52",
+    "text": "A pocket watch with mechanical gears, pipes, and a small pressure gauge leaking steam.",
+    "category": "Steampunk",
+    "difficulty": "Beginner",
+    "length": "Short",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-402",
+    "text": "Draw a retired space pirate floating above in a bustling magical night market, shrouded in dark mysterious shadows.",
+    "category": "Abstract",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-143",
+    "text": "Draw a wizard working at a modern coffee shop looking out at in a neon-drenched cyberpunk alley, bathed in dramatic golden hour sunlight.",
+    "category": "Anime",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-139",
+    "text": "Draw a blind swordmaster interacting with in a neon-drenched cyberpunk alley, surrounded by glowing butterflies.",
+    "category": "Nature",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-445",
+    "text": "Draw a stag with flowering antlers painting in a bustling magical night market, under a starry sky with a nebula visible.",
+    "category": "Monsters",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Cartoon",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-145",
+    "text": "Draw a clockwork librarian repairing inside a colossal clock tower, with soft light reflecting off wet pavement.",
+    "category": "Cyberpunk",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-477",
+    "text": "Draw a barn owl meditating near on a snowy mountaintop overlooking a sea of clouds, with roots and vines wrapped around them.",
+    "category": "Animals",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Anime",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-366",
+    "text": "Draw a colossal iron sentinel painting inside a colossal clock tower, shrouded in dark mysterious shadows.",
+    "category": "Sci-Fi",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Sci-Fi",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-406",
+    "text": "Draw a forest druid interacting with on the rings of Saturn, with soft light reflecting off wet pavement.",
+    "category": "Magic",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-375",
+    "text": "Draw an elven herbalist discovering on the rings of Saturn, with soft light reflecting off wet pavement.",
+    "category": "Cities",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Cartoon",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-154",
+    "text": "Draw a barn owl examining in a cozy attic during a thunderstorm, detailed with metallic gold filigree.",
+    "category": "Animals",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-150",
+    "text": "Draw a weary time-traveler meditating near on a snowy mountaintop overlooking a sea of clouds, with a soft pastel color scheme.",
+    "category": "Comics",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-149",
+    "text": "Draw a floating glowing orb discovering inside a cozy subterranean library, with soft light reflecting off wet pavement.",
+    "category": "Objects",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Cartoon",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-152",
+    "text": "Draw a gothic vampire cellist examining at the edge of a crumbling floating island, surrounded by glowing butterflies.",
+    "category": "Characters",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-332",
+    "text": "Draw a weary time-traveler guarding on a sun-drenched Mediterranean balcony, bathed in dramatic golden hour sunlight.",
+    "category": "Cities",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-449",
+    "text": "Draw a blind swordmaster holding in a futuristic botanical garden dome, with a soft pastel color scheme.",
+    "category": "Food",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-498",
+    "text": "Draw a colossal iron sentinel meditating near on a snowy mountaintop overlooking a sea of clouds, under a starry sky with a nebula visible.",
+    "category": "Sci-Fi",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Sci-Fi",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-159",
+    "text": "Draw a floating glowing orb casting a spell on in an ancient desert oasis under three moons, with dust motes dancing in sunbeams.",
+    "category": "Weapons",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Anime",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-359",
+    "text": "Draw a spectral wraith guarding in a cozy attic during a thunderstorm, with intricate runic engravings.",
+    "category": "Halloween",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-452",
+    "text": "Draw a colossal iron sentinel painting on a snowy mountaintop overlooking a sea of clouds, under a starry sky with a nebula visible.",
+    "category": "Sci-Fi",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Sci-Fi",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-417",
+    "text": "Draw a neon-decked street hacker discovering in a neon-drenched cyberpunk alley, detailed with metallic gold filigree.",
+    "category": "Pixel Art",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-436",
+    "text": "Draw a gargoyle meditating near in a futuristic botanical garden dome, with dust motes dancing in sunbeams.",
+    "category": "Halloween",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-340",
+    "text": "Draw a robotic street artist examining inside a colossal clock tower, surrounded by glowing butterflies.",
+    "category": "Steampunk",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-492",
+    "text": "Draw a blind swordmaster discovering inside a forgotten cathedral overgrown with ivy, under a starry sky with a nebula visible.",
+    "category": "Simple Sketch",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-12",
+    "text": "A wind-swept tree clinging to a rocky cliffside, its roots weaving through stone.",
+    "category": "Nature",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-166",
+    "text": "Draw a tiny micro-bot explorer painting in an ancient desert oasis under three moons, detailed with metallic gold filigree.",
+    "category": "Sci-Fi",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Sci-Fi",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-396",
+    "text": "Draw a celestial guardian chasing inside a forgotten cathedral overgrown with ivy, with intricate runic engravings.",
+    "category": "Dragons",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-373",
+    "text": "Draw a clockwork librarian reading in an ancient desert oasis under three moons, detailed with metallic gold filigree.",
+    "category": "Nature",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-76",
+    "text": "A scuba diver swimming alongside a giant, gentle bioluminescent jellyfish.",
+    "category": "Underwater",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-505",
+    "text": "Draw a celestial guardian holding on a sun-drenched Mediterranean balcony, with soft light reflecting off wet pavement.",
+    "category": "Magic",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-85",
+    "text": "A close-up portrait of a woman with freckles that look like gold leaf under warm sunlight.",
+    "category": "Portraits",
+    "difficulty": "Beginner",
+    "length": "Short",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-218",
+    "text": "Draw a clockwork librarian floating above in a cozy attic during a thunderstorm, surrounded by floating paper cranes.",
+    "category": "Christmas",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-389",
+    "text": "Draw a neon-decked street hacker holding on a snowy mountaintop overlooking a sea of clouds, under a starry sky with a nebula visible.",
+    "category": "Environment",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Cute",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-501",
+    "text": "Draw a forest druid casting a spell on at the bottom of a bioluminescent ocean trench, under a starry sky with a nebula visible.",
+    "category": "Fantasy",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-405",
+    "text": "Draw a dwarven blacksmith painting at the edge of a crumbling floating island, with dust motes dancing in sunbeams.",
+    "category": "Mythology",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-33",
+    "text": "An elegant gothic high tea setup with black teacups, dark roses, and skull-shaped macarons.",
+    "category": "Food",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Dark",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-132",
+    "text": "Draw a cybernetic humanoid dancer floating above inside a colossal clock tower, with intricate runic engravings.",
+    "category": "Sci-Fi",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Sci-Fi",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-350",
+    "text": "Draw a gothic vampire cellist holding in a bustling magical night market, with a soft pastel color scheme.",
+    "category": "Portraits",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-45",
+    "text": "A dynamic manga action panel showing a sword strike with speed lines and debris.",
+    "category": "Manga",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Anime",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-226",
+    "text": "Draw a deep-sea diver in retro gear painting in a neon-drenched cyberpunk alley, showing signs of heavy wear and tear.",
+    "category": "Christmas",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-369",
+    "text": "Draw a nomadic desert trader navigating in an ancient desert oasis under three moons, with intricate runic engravings.",
+    "category": "Portraits",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-479",
+    "text": "Draw a key that unlocks portals looking out at inside a cozy subterranean library, under a starry sky with a nebula visible.",
+    "category": "Objects",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Cute",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-182",
+    "text": "Draw a fox with wings looking out at inside a colossal clock tower, surrounded by floating paper cranes.",
+    "category": "Dinosaurs",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-341",
+    "text": "Draw a rusted gardening android painting in a misty redwood forest, with soft light reflecting off wet pavement.",
+    "category": "Sci-Fi",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Sci-Fi",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-46",
+    "text": "A retro superhero standing heroically on a skyscraper ledge, cape blowing in the wind.",
+    "category": "Comics",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Cartoon",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-71",
+    "text": "A lonely sentry standing guard on a castle wall under a starry night sky.",
+    "category": "Medieval",
+    "difficulty": "Beginner",
+    "length": "Short",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-516",
+    "text": "Draw a celestial explorer reading in a cozy attic during a thunderstorm, with soft light reflecting off wet pavement.",
+    "category": "Anime",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Cartoon",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-423",
+    "text": "Draw a tiny micro-bot explorer chasing in an ancient desert oasis under three moons, bathed in dramatic golden hour sunlight.",
+    "category": "Sci-Fi",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Sci-Fi",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-360",
+    "text": "Draw a lion with a mane of stardust casting a spell on at the edge of a crumbling floating island, featuring vibrant neon reflections.",
+    "category": "Animals",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-224",
+    "text": "Draw an elven herbalist meditating near in a cozy attic during a thunderstorm, with a soft pastel color scheme.",
+    "category": "Fashion",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-140",
+    "text": "Draw a weary time-traveler painting on a snowy mountaintop overlooking a sea of clouds, under a starry sky with a nebula visible.",
+    "category": "Christmas",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-82",
+    "text": "A high-fashion model wearing a dress made entirely of woven peacock feathers.",
+    "category": "Fashion",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-487",
+    "text": "Draw a robotic street artist floating above in a medieval castle ruins, with dust motes dancing in sunbeams.",
+    "category": "Advanced Concept Art",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Cartoon",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-213",
+    "text": "Draw a forest druid admiring on a snowy mountaintop overlooking a sea of clouds, showing signs of heavy wear and tear.",
+    "category": "Fantasy",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-165",
+    "text": "Draw a mushroom-folk villager chasing on the rings of Saturn, surrounded by floating paper cranes.",
+    "category": "Anime",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-205",
+    "text": "Draw a centaur archer guarding on a sun-drenched Mediterranean balcony, with dust motes dancing in sunbeams.",
+    "category": "Horror",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-222",
+    "text": "Draw a wizard working at a modern coffee shop interacting with in a neon-drenched cyberpunk alley, with soft light reflecting off wet pavement.",
+    "category": "Cyberpunk",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Cute",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-370",
+    "text": "Draw a gothic vampire cellist chasing in a medieval castle ruins, under a starry sky with a nebula visible.",
+    "category": "Nature",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Cartoon",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-384",
+    "text": "Draw a Victorian detective navigating at the bottom of a bioluminescent ocean trench, with glowing embers floating around.",
+    "category": "Architecture",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-404",
+    "text": "Draw a retired space pirate reading in a bustling magical night market, with dust motes dancing in sunbeams.",
+    "category": "Food",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-497",
+    "text": "Draw a lion with a mane of stardust repairing inside a forgotten cathedral overgrown with ivy, with dust motes dancing in sunbeams.",
+    "category": "Animals",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-355",
+    "text": "Draw a gothic vampire cellist looking out at in an ancient desert oasis under three moons, with a soft pastel color scheme.",
+    "category": "Food",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-99",
+    "text": "A colossal cavern filled with towering crystals that glow in shades of violet and cyan.",
+    "category": "Environment",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-48",
+    "text": "An expressive comic panel showing a funny argument between a mad scientist and their robot assistant.",
+    "category": "Comics",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Cartoon",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-343",
+    "text": "Draw a glowing glass terrarium painting at the edge of a crumbling floating island, showing signs of heavy wear and tear.",
+    "category": "Objects",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-464",
+    "text": "Draw a blind swordmaster reading on the rings of Saturn, under a starry sky with a nebula visible.",
+    "category": "Food",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Cartoon",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-377",
+    "text": "Draw a wizard working at a modern coffee shop looking out at in a cozy attic during a thunderstorm, with soft light reflecting off wet pavement.",
+    "category": "Simple Sketch",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Cartoon",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-59",
+    "text": "Zeus holding a crackling bolt of lightning on a cloud-covered Mount Olympus.",
+    "category": "Mythology",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-9",
+    "text": "A pack of wolves run through a forest, their coats glowing with celestial constellations.",
+    "category": "Animals",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-115",
+    "text": "A simple, decorated Christmas tree glowing with colorful fairy lights and a star on top.",
+    "category": "Christmas",
+    "difficulty": "Beginner",
+    "length": "Short",
+    "style": "Cartoon",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-204",
+    "text": "Draw a weary time-traveler interacting with on a snowy mountaintop overlooking a sea of clouds, detailed with metallic gold filigree.",
+    "category": "Cities",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-186",
+    "text": "Draw a retired space pirate meditating near on a snowy mountaintop overlooking a sea of clouds, surrounded by glowing butterflies.",
+    "category": "Characters",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-500",
+    "text": "Draw a robotic street artist meditating near in a misty redwood forest, shrouded in dark mysterious shadows.",
+    "category": "Pixel Art",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-190",
+    "text": "Draw a celestial explorer casting a spell on in a neon-drenched cyberpunk alley, with dust motes dancing in sunbeams.",
+    "category": "Seasonal",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-220",
+    "text": "Draw a forest druid interacting with inside a cozy subterranean library, with dust motes dancing in sunbeams.",
+    "category": "Fantasy",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-41",
+    "text": "A quiet scene of two high school students walking under cherry blossom trees in full bloom.",
+    "category": "Anime",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-161",
+    "text": "Draw a rogue shadow-dancer painting at the bottom of a bioluminescent ocean trench, featuring vibrant neon reflections.",
+    "category": "Dragons",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-428",
+    "text": "Draw a mysterious plague doctor reading at the edge of a crumbling floating island, with glowing embers floating around.",
+    "category": "Simple Sketch",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Cartoon",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-211",
+    "text": "Draw a rusted gardening android examining in a futuristic botanical garden dome, surrounded by glowing butterflies.",
+    "category": "Sci-Fi",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Sci-Fi",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-160",
+    "text": "Draw a golden eagle repairing at the bottom of a bioluminescent ocean trench, under a starry sky with a nebula visible.",
+    "category": "Monsters",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-412",
+    "text": "Draw an ornate mechanical music box looking out at in a cozy attic during a thunderstorm, with intricate runic engravings.",
+    "category": "Magic Items",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Anime",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-342",
+    "text": "Draw a fox with wings guarding at the edge of a crumbling floating island, with dust motes dancing in sunbeams.",
+    "category": "Cute",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-223",
+    "text": "Draw a weathered compass sleeping on inside a colossal clock tower, with glowing embers floating around.",
+    "category": "Objects",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-8",
+    "text": "A majestic stag with antlers made of blooming cherry blossoms standing in a sunlit clearing.",
+    "category": "Animals",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-209",
+    "text": "Draw a blind swordmaster discovering on a snowy mountaintop overlooking a sea of clouds, featuring vibrant neon reflections.",
+    "category": "Underwater",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-385",
+    "text": "Draw a humpback whale guarding in a medieval castle ruins, surrounded by floating paper cranes.",
+    "category": "Monsters",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-123",
+    "text": "Keyframe concept art showing an epic standoff between an explorer and a colossal stone guardian.",
+    "category": "Advanced Concept Art",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-212",
+    "text": "Draw a golden eagle admiring on a sun-drenched Mediterranean balcony, with soft light reflecting off wet pavement.",
+    "category": "Animals",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-374",
+    "text": "Draw a colossal iron sentinel admiring on the rings of Saturn, with a soft pastel color scheme.",
+    "category": "Sci-Fi",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Sci-Fi",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-55",
+    "text": "A neon sign in a dark rainy alley reading 'REPLICANT' with reflections in water.",
+    "category": "Cyberpunk",
+    "difficulty": "Beginner",
+    "length": "Short",
+    "style": "Dark",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-4",
+    "text": "An elven herbalist mixing glowing potions in a hollowed-out ancient oak tree.",
+    "category": "Fantasy",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-361",
+    "text": "Draw a rogue shadow-dancer repairing inside a forgotten cathedral overgrown with ivy, under a starry sky with a nebula visible.",
+    "category": "Magic",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-331",
+    "text": "Draw a key that unlocks portals looking out at at the bottom of a bioluminescent ocean trench, with a soft pastel color scheme.",
+    "category": "Objects",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-61",
+    "text": "A swamp monster made of mud, moss, and tree branches, with glowing green eyes.",
+    "category": "Monsters",
+    "difficulty": "Beginner",
+    "length": "Short",
+    "style": "Dark",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-31",
+    "text": "A stack of pancakes topped with glowing star-syrup and a pat of golden light butter.",
+    "category": "Food",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-407",
+    "text": "Draw a forest druid meditating near in a cozy attic during a thunderstorm, under a starry sky with a nebula visible.",
+    "category": "Mythology",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-203",
+    "text": "Draw a solar-sail spacecraft floating above inside a colossal clock tower, with soft light reflecting off wet pavement.",
+    "category": "Vehicles",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-358",
+    "text": "Draw a rusted gardening android painting on a snowy mountaintop overlooking a sea of clouds, with roots and vines wrapped around them.",
+    "category": "Sci-Fi",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Sci-Fi",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-520",
+    "text": "Draw a nomadic desert trader looking out at at the edge of a crumbling floating island, surrounded by glowing butterflies.",
+    "category": "Christmas",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Anime",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-235",
+    "text": "Draw a sleepy koala looking out at inside a cozy subterranean library, with glowing embers floating around.",
+    "category": "Cute",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-400",
+    "text": "Draw a forest druid meditating near inside a cozy subterranean library, under a starry sky with a nebula visible.",
+    "category": "Medieval",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-129",
+    "text": "Draw a dwarven blacksmith floating above inside a forgotten cathedral overgrown with ivy, under a starry sky with a nebula visible.",
+    "category": "Magic",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-462",
+    "text": "Draw a retired space pirate guarding in a futuristic botanical garden dome, with roots and vines wrapped around them.",
+    "category": "Simple Sketch",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-382",
+    "text": "Draw a blind swordmaster guarding in a neon-drenched cyberpunk alley, with intricate runic engravings.",
+    "category": "Food",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-383",
+    "text": "Draw a tiny micro-bot explorer reading at the bottom of a bioluminescent ocean trench, surrounded by glowing butterflies.",
+    "category": "Sci-Fi",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Sci-Fi",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-371",
+    "text": "Draw a golden eagle casting a spell on in a futuristic botanical garden dome, showing signs of heavy wear and tear.",
+    "category": "Cute",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-376",
+    "text": "Draw a leather-bound spellbook reading at the bottom of a bioluminescent ocean trench, with glowing embers floating around.",
+    "category": "Magic Items",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Anime",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-362",
+    "text": "Draw a nomadic desert trader looking out at in a misty redwood forest, with glowing embers floating around.",
+    "category": "Seasonal",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Cartoon",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-339",
+    "text": "Draw an ornate mechanical music box painting inside a forgotten cathedral overgrown with ivy, with a soft pastel color scheme.",
+    "category": "Objects",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-188",
+    "text": "Draw a celestial guardian casting a spell on inside a colossal clock tower, with dust motes dancing in sunbeams.",
+    "category": "Magic",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-422",
+    "text": "Draw a blind swordmaster guarding inside a forgotten cathedral overgrown with ivy, surrounded by glowing butterflies.",
+    "category": "Underwater",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-386",
+    "text": "Draw a minotaur warrior discovering on the rings of Saturn, showing signs of heavy wear and tear.",
+    "category": "Magic",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-244",
+    "text": "Draw a weathered compass holding in a medieval castle ruins, showing signs of heavy wear and tear.",
+    "category": "Objects",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-92",
+    "text": "A giant robot sentinel standing guard in a futuristic city, covered in climbing ivy.",
+    "category": "Robots",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Sci-Fi",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-73",
+    "text": "A lonely space explorer sitting on a dusty asteroid, looking at a distant spiral galaxy.",
+    "category": "Space",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-381",
+    "text": "Draw a frost giant holding in a futuristic botanical garden dome, surrounded by glowing butterflies.",
+    "category": "Halloween",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-78",
+    "text": "A deep-sea mermaid sitting on a throne of black pearl, holding a glowing anglerfish lantern.",
+    "category": "Underwater",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Dark",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-496",
+    "text": "Draw a deep-sea diver in retro gear meditating near inside a forgotten cathedral overgrown with ivy, surrounded by floating paper cranes.",
+    "category": "Portraits",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Dark",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-390",
+    "text": "Draw a forest druid reading in an ancient desert oasis under three moons, with roots and vines wrapped around them.",
+    "category": "Dragons",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-459",
+    "text": "Draw a siren singer repairing in an ancient desert oasis under three moons, under a starry sky with a nebula visible.",
+    "category": "Dragons",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-194",
+    "text": "Draw a neon-decked street hacker repairing in a futuristic botanical garden dome, surrounded by floating paper cranes.",
+    "category": "Architecture",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-437",
+    "text": "Draw a celestial explorer admiring in a futuristic botanical garden dome, under a starry sky with a nebula visible.",
+    "category": "Environment",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-102",
+    "text": "A ruined, overgrown city reclaiming by nature, with trees growing out of skyscrapers.",
+    "category": "Cities",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-346",
+    "text": "Draw a robotic street artist discovering in a bustling magical night market, with dust motes dancing in sunbeams.",
+    "category": "Anime",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-388",
+    "text": "Draw a deep-sea diver in retro gear chasing in a misty redwood forest, with dust motes dancing in sunbeams.",
+    "category": "Characters",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-106",
+    "text": "A glowing glass bottle containing a captured shooting star that swirls inside.",
+    "category": "Magic Items",
+    "difficulty": "Beginner",
+    "length": "Short",
+    "style": "Cute",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-364",
+    "text": "Draw a neon-decked street hacker casting a spell on on a snowy mountaintop overlooking a sea of clouds, with roots and vines wrapped around them.",
+    "category": "Nature",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Dark",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-431",
+    "text": "Draw a rusty retro camper van floating above in a misty redwood forest, with soft light reflecting off wet pavement.",
+    "category": "Vehicles",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-239",
+    "text": "Draw a lion with a mane of stardust discovering inside a colossal clock tower, with glowing embers floating around.",
+    "category": "Animals",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-202",
+    "text": "Draw a neon-decked street hacker meditating near inside a cozy subterranean library, shrouded in dark mysterious shadows.",
+    "category": "Environment",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-34",
+    "text": "A retro camper van modified with jet engines, parked on a grassy hill looking at a launchpad.",
+    "category": "Vehicles",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Cartoon",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-126",
+    "text": "Draw a celestial guardian navigating at the bottom of a bioluminescent ocean trench, bathed in dramatic golden hour sunlight.",
+    "category": "Mythology",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-354",
+    "text": "Draw a rogue shadow-dancer admiring inside a colossal clock tower, surrounded by glowing butterflies.",
+    "category": "Medieval",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-3",
+    "text": "A young street artist painting glowing graffiti with a spray can that emits starlight.",
+    "category": "Characters",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-515",
+    "text": "Draw a robotic street artist chasing inside a cozy subterranean library, surrounded by glowing butterflies.",
+    "category": "Comics",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-185",
+    "text": "Draw a chameleon navigating on the rings of Saturn, featuring vibrant neon reflections.",
+    "category": "Dinosaurs",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-336",
+    "text": "Draw a celestial guardian sleeping on inside a colossal clock tower, featuring vibrant neon reflections.",
+    "category": "Magic",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-170",
+    "text": "Draw a werewolf chasing on the rings of Saturn, with soft light reflecting off wet pavement.",
+    "category": "Horror",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-47",
+    "text": "A classic noir detective lighting a cigarette under a streetlamp, shadows casting long lines.",
+    "category": "Comics",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-368",
+    "text": "Draw a neon-decked street hacker looking out at inside a forgotten cathedral overgrown with ivy, with glowing embers floating around.",
+    "category": "Manga",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Cute",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-103",
+    "text": "A tiny tropical island with a single palm tree and a chest buried in the sand.",
+    "category": "Islands",
+    "difficulty": "Beginner",
+    "length": "Short",
+    "style": "Cartoon",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-128",
+    "text": "Draw a celestial explorer discovering in a medieval castle ruins, detailed with metallic gold filigree.",
+    "category": "Steampunk",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-458",
+    "text": "Draw a fox with wings sleeping on inside a colossal clock tower, surrounded by glowing butterflies.",
+    "category": "Animals",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-174",
+    "text": "Draw a gothic vampire cellist interacting with in a neon-drenched cyberpunk alley, with a soft pastel color scheme.",
+    "category": "Architecture",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-258",
+    "text": "Draw a Victorian detective holding on the rings of Saturn, under a starry sky with a nebula visible.",
+    "category": "Christmas",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-180",
+    "text": "Draw a minotaur warrior floating above in a cozy attic during a thunderstorm, under a starry sky with a nebula visible.",
+    "category": "Magic",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-51",
+    "text": "A detailed pixel art boss monster: a giant crystal spider inside a cavern.",
+    "category": "Pixel Art",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Dark",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-243",
+    "text": "Draw a deep-sea diver in retro gear examining in an ancient desert oasis under three moons, showing signs of heavy wear and tear.",
+    "category": "Seasonal",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Dark",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-356",
+    "text": "Draw a weary time-traveler chasing in an ancient desert oasis under three moons, under a starry sky with a nebula visible.",
+    "category": "Steampunk",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-176",
+    "text": "Draw a mushroom-folk villager floating above in an ancient desert oasis under three moons, showing signs of heavy wear and tear.",
+    "category": "Nature",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-6",
+    "text": "A dark sorcerer summoning a spectral stag under the light of a blood moon.",
+    "category": "Fantasy",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Dark",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-195",
+    "text": "Draw a majestic wolf floating above inside a forgotten cathedral overgrown with ivy, shrouded in dark mysterious shadows.",
+    "category": "Animals",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-216",
+    "text": "Draw a leather-bound spellbook navigating in a bustling magical night market, featuring vibrant neon reflections.",
+    "category": "Weapons",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-7",
+    "text": "A fluffy red panda wearing a tiny aviator hat, sitting on a bamboo branch.",
+    "category": "Animals",
+    "difficulty": "Beginner",
+    "length": "Short",
+    "style": "Cute",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-148",
+    "text": "Draw a retired space pirate chasing in a cozy attic during a thunderstorm, showing signs of heavy wear and tear.",
+    "category": "Portraits",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-15",
+    "text": "A vast desert with crimson sand dunes and two massive suns setting on the horizon.",
+    "category": "Landscape",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-120",
+    "text": "A loose ink sketch of a pair of worn-out leather boots sitting on a rug.",
+    "category": "Simple Sketch",
+    "difficulty": "Beginner",
+    "length": "Short",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-480",
+    "text": "Draw an elven herbalist floating above in a cozy attic during a thunderstorm, with intricate runic engravings.",
+    "category": "Characters",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Cartoon",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-108",
+    "text": "An ancient stone hourglass filled with glowing golden stardust that flows upwards.",
+    "category": "Magic Items",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-490",
+    "text": "Draw a mysterious plague doctor guarding on the rings of Saturn, featuring vibrant neon reflections.",
+    "category": "Manga",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-337",
+    "text": "Draw a clockwork librarian sleeping on on a sun-drenched Mediterranean balcony, with soft light reflecting off wet pavement.",
+    "category": "Advanced Concept Art",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Anime",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-124",
+    "text": "Draw a neon-decked street hacker interacting with inside a cozy subterranean library, featuring vibrant neon reflections.",
+    "category": "Landscape",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Anime",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-125",
+    "text": "Draw a blind swordmaster interacting with in a neon-drenched cyberpunk alley, shrouded in dark mysterious shadows.",
+    "category": "Food",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-260",
+    "text": "Draw a phoenix tamer casting a spell on inside a forgotten cathedral overgrown with ivy, with a soft pastel color scheme.",
+    "category": "Fantasy",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-514",
+    "text": "Draw a Victorian detective holding on a snowy mountaintop overlooking a sea of clouds, showing signs of heavy wear and tear.",
+    "category": "Food",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-380",
+    "text": "Draw a mysterious plague doctor chasing in a futuristic botanical garden dome, surrounded by floating paper cranes.",
+    "category": "Fashion",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-333",
+    "text": "Draw a phoenix tamer looking out at inside a forgotten cathedral overgrown with ivy, featuring vibrant neon reflections.",
+    "category": "Magic",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-104",
+    "text": "A floating island in the shape of a sleeping turtle, carrying a medieval temple on its back.",
+    "category": "Islands",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-481",
+    "text": "Draw a drone delivery unit with personality holding in a futuristic botanical garden dome, surrounded by glowing butterflies.",
+    "category": "Space",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Sci-Fi",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-439",
+    "text": "Draw a retired space pirate navigating on a snowy mountaintop overlooking a sea of clouds, bathed in dramatic golden hour sunlight.",
+    "category": "Abstract",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-253",
+    "text": "Draw a retired space pirate holding inside a forgotten cathedral overgrown with ivy, bathed in dramatic golden hour sunlight.",
+    "category": "Portraits",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-357",
+    "text": "Draw a weary time-traveler guarding on the rings of Saturn, with dust motes dancing in sunbeams.",
+    "category": "Underwater",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-254",
+    "text": "Draw a key that unlocks portals floating above in a medieval castle ruins, shrouded in dark mysterious shadows.",
+    "category": "Magic Items",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-414",
+    "text": "Draw a red panda holding on the rings of Saturn, with glowing embers floating around.",
+    "category": "Cute",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-511",
+    "text": "Draw a colossal iron sentinel painting inside a cozy subterranean library, shrouded in dark mysterious shadows.",
+    "category": "Robots",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Sci-Fi",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-513",
+    "text": "Draw a futuristic submarine discovering on a snowy mountaintop overlooking a sea of clouds, surrounded by floating paper cranes.",
+    "category": "Vehicles",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Dark",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-338",
+    "text": "Draw a deep-sea diver in retro gear meditating near in a misty redwood forest, with intricate runic engravings.",
+    "category": "Environment",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-214",
+    "text": "Draw a Victorian detective navigating in a futuristic botanical garden dome, with glowing embers floating around.",
+    "category": "Fashion",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-393",
+    "text": "Draw a mysterious plague doctor looking out at at the bottom of a bioluminescent ocean trench, with intricate runic engravings.",
+    "category": "Fashion",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-54",
+    "text": "A grand Victorian city street filled with steam-powered carriages and clockwork streetlights.",
+    "category": "Steampunk",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-420",
+    "text": "Draw a glowing glass terrarium meditating near in a misty redwood forest, surrounded by floating paper cranes.",
+    "category": "Weapons",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-507",
+    "text": "Draw a sleek AI companion meditating near in a bustling magical night market, with roots and vines wrapped around them.",
+    "category": "Sci-Fi",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Sci-Fi",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-334",
+    "text": "Draw a gothic vampire cellist sleeping on in a neon-drenched cyberpunk alley, with intricate runic engravings.",
+    "category": "Seasonal",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-392",
+    "text": "Draw a scrap-metal mechanical dog admiring on a snowy mountaintop overlooking a sea of clouds, with soft light reflecting off wet pavement.",
+    "category": "Robots",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Sci-Fi",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-49",
+    "text": "A cozy fireplace scene in 16-bit style, with embers gently rising up the chimney.",
+    "category": "Pixel Art",
+    "difficulty": "Beginner",
+    "length": "Short",
+    "style": "Cartoon",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-237",
+    "text": "Draw a floating glowing orb reading in a neon-drenched cyberpunk alley, featuring vibrant neon reflections.",
+    "category": "Magic Items",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-251",
+    "text": "Draw a mushroom-folk villager guarding inside a colossal clock tower, showing signs of heavy wear and tear.",
+    "category": "Cyberpunk",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-241",
+    "text": "Draw a wizard working at a modern coffee shop discovering in a futuristic botanical garden dome, surrounded by glowing butterflies.",
+    "category": "Steampunk",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Cute",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-232",
+    "text": "Draw a deep-sea diver in retro gear holding at the bottom of a bioluminescent ocean trench, with intricate runic engravings.",
+    "category": "Characters",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Dark",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-201",
+    "text": "Draw an elven herbalist floating above at the bottom of a bioluminescent ocean trench, with a soft pastel color scheme.",
+    "category": "Cyberpunk",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Cartoon",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-63",
+    "text": "A terrifying shadow leviathan rising from a black void, surrounded by tiny glowing souls.",
+    "category": "Monsters",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-372",
+    "text": "Draw a deep-sea diver in retro gear repairing inside a colossal clock tower, with roots and vines wrapped around them.",
+    "category": "Islands",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Cartoon",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-379",
+    "text": "Draw a weary time-traveler painting in a neon-drenched cyberpunk alley, with dust motes dancing in sunbeams.",
+    "category": "Simple Sketch",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-395",
+    "text": "Draw a neon-decked street hacker navigating in a misty redwood forest, showing signs of heavy wear and tear.",
+    "category": "Food",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-351",
+    "text": "Draw a sleepy koala meditating near inside a colossal clock tower, bathed in dramatic golden hour sunlight.",
+    "category": "Dinosaurs",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-236",
+    "text": "Draw a turtle carrying a small garden admiring on the rings of Saturn, surrounded by floating paper cranes.",
+    "category": "Cute",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-348",
+    "text": "Draw a gothic horse-drawn carriage navigating inside a cozy subterranean library, featuring vibrant neon reflections.",
+    "category": "Vehicles",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-113",
+    "text": "A cozy cottage decorated with spiderwebs, skulls, and a black cat sitting on the porch.",
+    "category": "Halloween",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-430",
+    "text": "Draw a retired space pirate looking out at in a bustling magical night market, with intricate runic engravings.",
+    "category": "Daily Challenge",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-421",
+    "text": "Draw an elven herbalist repairing in a misty redwood forest, surrounded by floating paper cranes.",
+    "category": "Landscape",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-1",
+    "text": "A weary time-traveler sitting in a modern coffee shop, holding an ancient bronze pocket watch.",
+    "category": "Characters",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-255",
+    "text": "Draw a robotic street artist examining on a sun-drenched Mediterranean balcony, bathed in dramatic golden hour sunlight.",
+    "category": "Manga",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-434",
+    "text": "Draw a rogue shadow-dancer reading inside a colossal clock tower, with a soft pastel color scheme.",
+    "category": "Fantasy",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-217",
+    "text": "Draw a celestial explorer meditating near at the bottom of a bioluminescent ocean trench, detailed with metallic gold filigree.",
+    "category": "Daily Challenge",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Anime",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-219",
+    "text": "Draw a red panda holding on a snowy mountaintop overlooking a sea of clouds, shrouded in dark mysterious shadows.",
+    "category": "Cute",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-111",
+    "text": "A frozen winter lake surrounded by snow-covered pines, reflecting a crystal-clear starry sky.",
+    "category": "Seasonal",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-508",
+    "text": "Draw a mushroom-folk villager admiring in a misty redwood forest, under a starry sky with a nebula visible.",
+    "category": "Abstract",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-215",
+    "text": "Draw a wizard working at a modern coffee shop painting in a cozy attic during a thunderstorm, surrounded by glowing butterflies.",
+    "category": "Christmas",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-109",
+    "text": "A cozy autumn scene with pumpkin spice lattes, colorful fallen leaves, and a warm scarf.",
+    "category": "Seasonal",
+    "difficulty": "Beginner",
+    "length": "Short",
+    "style": "Cute",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-482",
+    "text": "Draw a mysterious plague doctor navigating on a sun-drenched Mediterranean balcony, with a soft pastel color scheme.",
+    "category": "Characters",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-233",
+    "text": "Draw a deep-sea diver in retro gear looking out at at the edge of a crumbling floating island, showing signs of heavy wear and tear.",
+    "category": "Manga",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-207",
+    "text": "Draw a curious otter guarding in a futuristic botanical garden dome, detailed with metallic gold filigree.",
+    "category": "Animals",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-247",
+    "text": "Draw a pixie rogue holding in a neon-drenched cyberpunk alley, with dust motes dancing in sunbeams.",
+    "category": "Magic",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-347",
+    "text": "Draw a minotaur warrior admiring on the rings of Saturn, under a starry sky with a nebula visible.",
+    "category": "Fantasy",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-127",
+    "text": "Draw a lion with a mane of stardust chasing in a cozy attic during a thunderstorm, with a soft pastel color scheme.",
+    "category": "Monsters",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-250",
+    "text": "Draw a key that unlocks portals guarding in a futuristic botanical garden dome, with dust motes dancing in sunbeams.",
+    "category": "Objects",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-494",
+    "text": "Draw a neon-decked street hacker floating above at the bottom of a bioluminescent ocean trench, bathed in dramatic golden hour sunlight.",
+    "category": "Pixel Art",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Dark",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-210",
+    "text": "Draw a shadow-beast holding in a medieval castle ruins, bathed in dramatic golden hour sunlight.",
+    "category": "Halloween",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-23",
+    "text": "A round teacup containing a sleeping baby sea turtle floating in chamomile tea.",
+    "category": "Cute",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-471",
+    "text": "Draw a leather-bound spellbook meditating near in a medieval castle ruins, with roots and vines wrapped around them.",
+    "category": "Weapons",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-79",
+    "text": "A Tyrannosaurus Rex roaring in a prehistoric jungle under a sky filled with pterodactyls.",
+    "category": "Dinosaurs",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-25",
+    "text": "An ornate antique key with a handle shaped like a sleeping owl.",
+    "category": "Objects",
+    "difficulty": "Beginner",
+    "length": "Short",
+    "style": "Realistic",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-345",
+    "text": "Draw a wizard working at a modern coffee shop casting a spell on on a sun-drenched Mediterranean balcony, under a starry sky with a nebula visible.",
+    "category": "Environment",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Dark",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-13",
+    "text": "A wide vista of floating islands with waterfalls pouring water into the endless sky below.",
+    "category": "Landscape",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-460",
+    "text": "Draw a nomadic desert trader discovering on the rings of Saturn, with glowing embers floating around.",
+    "category": "Pixel Art",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-444",
+    "text": "Draw a gothic vampire cellist discovering on a sun-drenched Mediterranean balcony, with dust motes dancing in sunbeams.",
+    "category": "Cyberpunk",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-399",
+    "text": "Draw a curious otter looking out at in a cozy attic during a thunderstorm, with intricate runic engravings.",
+    "category": "Animals",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-248",
+    "text": "Draw a sleek AI companion casting a spell on in a cozy attic during a thunderstorm, featuring vibrant neon reflections.",
+    "category": "Robots",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Sci-Fi",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-484",
+    "text": "Draw a gothic vampire cellist interacting with inside a cozy subterranean library, with soft light reflecting off wet pavement.",
+    "category": "Cities",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Anime",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-200",
+    "text": "Draw a clockwork librarian interacting with in a medieval castle ruins, with glowing embers floating around.",
+    "category": "Fashion",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-440",
+    "text": "Draw a cybernetic humanoid dancer examining on the rings of Saturn, with soft light reflecting off wet pavement.",
+    "category": "Robots",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Sci-Fi",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-394",
+    "text": "Draw a blind swordmaster holding on a snowy mountaintop overlooking a sea of clouds, featuring vibrant neon reflections.",
+    "category": "Steampunk",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Cartoon",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-517",
+    "text": "Draw a minotaur warrior floating above on the rings of Saturn, showing signs of heavy wear and tear.",
+    "category": "Magic",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-474",
+    "text": "Draw a blind swordmaster discovering in a misty redwood forest, surrounded by floating paper cranes.",
+    "category": "Food",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Cartoon",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-58",
+    "text": "Anubis, the Egyptian god, holding a glowing scale weighing a heart against a golden feather.",
+    "category": "Mythology",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Fantasy",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-230",
+    "text": "Draw a nomadic desert trader floating above inside a colossal clock tower, with intricate runic engravings.",
+    "category": "Comics",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-16",
+    "text": "A colossal space station orbiting a ringed gas giant, reflecting the planet's blue light.",
+    "category": "Sci-Fi",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-64",
+    "text": "A sleeping dragon coiled around a massive pile of gold coins and sparkling gems.",
+    "category": "Dragons",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-227",
+    "text": "Draw a shadow-beast floating above in a misty redwood forest, shrouded in dark mysterious shadows.",
+    "category": "Halloween",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-199",
+    "text": "Draw a red panda discovering inside a colossal clock tower, surrounded by floating paper cranes.",
+    "category": "Monsters",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-499",
+    "text": "Draw a Victorian detective casting a spell on on a snowy mountaintop overlooking a sea of clouds, with soft light reflecting off wet pavement.",
+    "category": "Daily Challenge",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Dark",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-478",
+    "text": "Draw a dwarven blacksmith admiring at the bottom of a bioluminescent ocean trench, surrounded by glowing butterflies.",
+    "category": "Magic",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-409",
+    "text": "Draw a frost giant sleeping on in a cozy attic during a thunderstorm, detailed with metallic gold filigree.",
+    "category": "Halloween",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-335",
+    "text": "Draw a nomadic desert trader examining on a snowy mountaintop overlooking a sea of clouds, with a soft pastel color scheme.",
+    "category": "Nature",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Cartoon",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-225",
+    "text": "Draw a vintage steam-powered butler casting a spell on in a cozy attic during a thunderstorm, with glowing embers floating around.",
+    "category": "Robots",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Sci-Fi",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-228",
+    "text": "Draw a siren singer repairing on a snowy mountaintop overlooking a sea of clouds, with a soft pastel color scheme.",
+    "category": "Medieval",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-262",
+    "text": "Draw a retired space pirate guarding in an ancient desert oasis under three moons, surrounded by floating paper cranes.",
+    "category": "Architecture",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-208",
+    "text": "Draw a frost giant interacting with at the edge of a crumbling floating island, bathed in dramatic golden hour sunlight.",
+    "category": "Halloween",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-429",
+    "text": "Draw a leather-bound spellbook interacting with on a sun-drenched Mediterranean balcony, shrouded in dark mysterious shadows.",
+    "category": "Objects",
+    "difficulty": "Intermediate",
+    "length": "Detailed",
+    "style": "Anime",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-353",
+    "text": "Draw a wizard working at a modern coffee shop meditating near inside a forgotten cathedral overgrown with ivy, with glowing embers floating around.",
+    "category": "Architecture",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Realistic",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-229",
+    "text": "Draw a sleek AI companion guarding inside a cozy subterranean library, with intricate runic engravings.",
+    "category": "Sci-Fi",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Sci-Fi",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-465",
+    "text": "Draw a swamp leviathan sleeping on inside a forgotten cathedral overgrown with ivy, with glowing embers floating around.",
+    "category": "Halloween",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-238",
+    "text": "Draw a Victorian detective sleeping on in a bustling magical night market, bathed in dramatic golden hour sunlight.",
+    "category": "Steampunk",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-259",
+    "text": "Draw a celestial guardian looking out at in a medieval castle ruins, with glowing embers floating around.",
+    "category": "Mythology",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-466",
+    "text": "Draw a blind swordmaster reading on the rings of Saturn, featuring vibrant neon reflections.",
+    "category": "Portraits",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-231",
+    "text": "Draw a robotic street artist reading at the edge of a crumbling floating island, with intricate runic engravings.",
+    "category": "Cyberpunk",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-451",
+    "text": "Draw a mysterious plague doctor reading in an ancient desert oasis under three moons, with roots and vines wrapped around them.",
+    "category": "Nature",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Dark",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-256",
+    "text": "Draw an elven herbalist floating above on a snowy mountaintop overlooking a sea of clouds, surrounded by glowing butterflies.",
+    "category": "Fashion",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Anime",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-488",
+    "text": "Draw a mysterious plague doctor holding at the bottom of a bioluminescent ocean trench, with intricate runic engravings.",
+    "category": "Manga",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-245",
+    "text": "Draw a retired space pirate chasing on a snowy mountaintop overlooking a sea of clouds, surrounded by glowing butterflies.",
+    "category": "Cities",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Cartoon",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-264",
+    "text": "Draw a neon-decked street hacker looking out at inside a forgotten cathedral overgrown with ivy, with roots and vines wrapped around them.",
+    "category": "Cities",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Cartoon",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-363",
+    "text": "Draw a retired space pirate discovering in a neon-drenched cyberpunk alley, under a starry sky with a nebula visible.",
+    "category": "Food",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Realistic",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-257",
+    "text": "Draw a flying steampunk airship chasing on a sun-drenched Mediterranean balcony, with glowing embers floating around.",
+    "category": "Vehicles",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-240",
+    "text": "Draw a colossal iron sentinel examining on a snowy mountaintop overlooking a sea of clouds, with roots and vines wrapped around them.",
+    "category": "Sci-Fi",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Sci-Fi",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-349",
+    "text": "Draw an elven herbalist navigating in an ancient desert oasis under three moons, with glowing embers floating around.",
+    "category": "Characters",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Cute",
+    "mood": "Epic"
+  },
+  {
+    "id": "p-252",
+    "text": "Draw a deep-sea diver in retro gear painting at the bottom of a bioluminescent ocean trench, with glowing embers floating around.",
+    "category": "Advanced Concept Art",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Anime",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-261",
+    "text": "Draw a majestic wolf holding in a misty redwood forest, with a soft pastel color scheme.",
+    "category": "Animals",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-234",
+    "text": "Draw an elven herbalist discovering in an ancient desert oasis under three moons, under a starry sky with a nebula visible.",
+    "category": "Environment",
+    "difficulty": "Beginner",
+    "length": "Detailed",
+    "style": "Dark",
+    "mood": "Mystery"
+  },
+  {
+    "id": "p-242",
+    "text": "Draw a Victorian detective holding in a misty redwood forest, showing signs of heavy wear and tear.",
+    "category": "Simple Sketch",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-448",
+    "text": "Draw a phoenix tamer chasing in a futuristic botanical garden dome, bathed in dramatic golden hour sunlight.",
+    "category": "Dragons",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Fantasy",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-486",
+    "text": "Draw a gothic vampire cellist looking out at on the rings of Saturn, under a starry sky with a nebula visible.",
+    "category": "Abstract",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Anime",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-410",
+    "text": "Draw a robotic street artist interacting with inside a cozy subterranean library, with dust motes dancing in sunbeams.",
+    "category": "Simple Sketch",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-249",
+    "text": "Draw a drone delivery unit with personality navigating on a sun-drenched Mediterranean balcony, bathed in dramatic golden hour sunlight.",
+    "category": "Space",
+    "difficulty": "Advanced",
+    "length": "Detailed",
+    "style": "Sci-Fi",
+    "mood": "Calm"
+  },
+  {
+    "id": "p-246",
+    "text": "Draw a celestial explorer navigating inside a colossal clock tower, showing signs of heavy wear and tear.",
+    "category": "Islands",
+    "difficulty": "Intermediate",
+    "length": "Medium",
+    "style": "Cartoon",
+    "mood": "Adventure"
+  },
+  {
+    "id": "p-367",
+    "text": "Draw a rusted gardening android holding on a sun-drenched Mediterranean balcony, detailed with metallic gold filigree.",
+    "category": "Robots",
+    "difficulty": "Beginner",
+    "length": "Medium",
+    "style": "Sci-Fi",
+    "mood": "Dark"
+  },
+  {
+    "id": "p-221",
+    "text": "Draw a sleek AI companion examining in a medieval castle ruins, with roots and vines wrapped around them.",
+    "category": "Space",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Sci-Fi",
+    "mood": "Happy"
+  },
+  {
+    "id": "p-263",
+    "text": "Draw a spectral wraith examining inside a colossal clock tower, surrounded by glowing butterflies.",
+    "category": "Horror",
+    "difficulty": "Advanced",
+    "length": "Medium",
+    "style": "Dark",
+    "mood": "Dark"
+  }
+]

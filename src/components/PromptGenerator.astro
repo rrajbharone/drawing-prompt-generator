@@ -1,0 +1,877 @@
+---
+import promptsData from '../data/prompts.json';
+
+// Get a list of unique categories from prompts data
+const categories = [...new Set(promptsData.map(p => p.category))].sort();
+---
+
+<section class="generator-section" id="generator-box">
+  <div class="container generator-container">
+    <div class="generator-grid">
+      
+      <!-- Left Column: Filters and Generator Card -->
+      <div class="generator-main">
+        <div class="card filter-card">
+          <h2 class="section-title">Customize Your Prompt</h2>
+          
+          <div class="filter-controls">
+            <!-- Category -->
+            <div class="filter-group">
+              <label for="filter-category">Category</label>
+              <select id="filter-category" class="filter-select">
+                <option value="all">All Categories ({promptsData.length})</option>
+                {categories.map(cat => (
+                  <option value={cat}>{cat}</option>
+                ))}
+              </select>
+            </div>
+
+            <!-- Difficulty -->
+            <div class="filter-group">
+              <label for="filter-difficulty">Difficulty</label>
+              <select id="filter-difficulty" class="filter-select">
+                <option value="all">Any Difficulty</option>
+                <option value="Beginner">Beginner</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+              </select>
+            </div>
+
+            <!-- Style -->
+            <div class="filter-group">
+              <label for="filter-style">Style</label>
+              <select id="filter-style" class="filter-select">
+                <option value="all">Any Style</option>
+                <option value="Realistic">Realistic</option>
+                <option value="Cartoon">Cartoon</option>
+                <option value="Anime">Anime</option>
+                <option value="Fantasy">Fantasy</option>
+                <option value="Dark">Dark</option>
+                <option value="Cute">Cute</option>
+              </select>
+            </div>
+
+            <!-- Mood -->
+            <div class="filter-group">
+              <label for="filter-mood">Mood</label>
+              <select id="filter-mood" class="filter-select">
+                <option value="all">Any Mood</option>
+                <option value="Happy">Happy</option>
+                <option value="Dark">Dark</option>
+                <option value="Mystery">Mystery</option>
+                <option value="Adventure">Adventure</option>
+                <option value="Epic">Epic</option>
+                <option value="Calm">Calm</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Prompt Display Card -->
+        <div class="card prompt-card" id="active-prompt-card">
+          <div class="prompt-card-header">
+            <div class="prompt-badges">
+              <span id="badge-category" class="badge badge-primary">Category</span>
+              <span id="badge-difficulty" class="badge badge-secondary">Difficulty</span>
+              <span id="badge-style" class="badge">Style</span>
+              <span id="badge-mood" class="badge">Mood</span>
+            </div>
+            
+            <button class="favorite-toggle-btn" id="favorite-btn" aria-label="Add to favorites">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="heart-icon"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            </button>
+          </div>
+
+          <div class="prompt-text-container">
+            <p id="prompt-display-text">Click the generate button to find drawing prompts...</p>
+          </div>
+
+          <div class="prompt-card-actions">
+            <button class="btn btn-secondary btn-copy" id="btn-copy-prompt">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="copy-icon"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              <span id="copy-btn-text">Copy Prompt</span>
+            </button>
+            <button class="btn btn-primary btn-generate" id="btn-generate-prompt">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="spin-icon"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"></path></svg>
+              <span>Generate Another</span>
+            </button>
+          </div>
+          
+          <div class="keyboard-tip text-center">
+            <span class="keyboard-key">Space</span> to generate a new prompt
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Sidebar (Favorites & History) -->
+      <aside class="generator-sidebar">
+        <!-- Sidebar Tabs -->
+        <div class="card sidebar-card">
+          <div class="sidebar-tabs">
+            <button class="tab-btn active" id="tab-btn-history">History</button>
+            <button class="tab-btn" id="tab-btn-favorites">Favorites (<span id="favorites-count">0</span>)</button>
+          </div>
+          
+          <div class="tab-content scrollable-list" id="list-history">
+            <!-- Populated by JavaScript -->
+            <p class="empty-list-msg">No prompts generated yet.</p>
+          </div>
+
+          <div class="tab-content scrollable-list hidden" id="list-favorites">
+            <!-- Populated by JavaScript -->
+            <p class="empty-list-msg">Your favorite prompts will show here.</p>
+          </div>
+        </div>
+
+        <!-- Challenge Banner -->
+        <div class="card daily-challenge-card">
+          <div class="challenge-header">
+            <span class="badge badge-success">Daily Practice</span>
+            <h3>Daily Drawing Challenge</h3>
+          </div>
+          <p id="challenge-text">Sketch a rusted gardening robot watering a small purple wildflower in a cracked asphalt lot.</p>
+          <button class="btn btn-secondary btn-sm" id="btn-load-challenge">Draw This Idea</button>
+        </div>
+      </aside>
+
+    </div>
+  </div>
+</section>
+
+<!-- Toast Message Container -->
+<div id="toast-container" class="toast-container"></div>
+
+<!-- JSON prompts database injection -->
+<script is:inline id="prompts-database" type="application/json" set:html={JSON.stringify(promptsData)} />
+
+<script>
+  // Elements
+  const promptsData = JSON.parse(document.getElementById('prompts-database').textContent);
+  
+  const filterCategory = document.getElementById('filter-category');
+  const filterDifficulty = document.getElementById('filter-difficulty');
+  const filterStyle = document.getElementById('filter-style');
+  const filterMood = document.getElementById('filter-mood');
+  
+  const displayPrompt = document.getElementById('prompt-display-text');
+  const badgeCategory = document.getElementById('badge-category');
+  const badgeDifficulty = document.getElementById('badge-difficulty');
+  const badgeStyle = document.getElementById('badge-style');
+  const badgeMood = document.getElementById('badge-mood');
+  
+  const btnGenerate = document.getElementById('btn-generate-prompt');
+  const btnCopy = document.getElementById('btn-copy-prompt');
+  const btnCopyText = document.getElementById('copy-btn-text');
+  const btnFavorite = document.getElementById('favorite-btn');
+  
+  const tabHistory = document.getElementById('tab-btn-history');
+  const tabFavorites = document.getElementById('tab-btn-favorites');
+  const listHistory = document.getElementById('list-history');
+  const listFavorites = document.getElementById('list-favorites');
+  const favoritesCountSpan = document.getElementById('favorites-count');
+  
+  const btnLoadChallenge = document.getElementById('btn-load-challenge');
+  const challengeText = document.getElementById('challenge-text');
+  
+  const toastContainer = document.getElementById('toast-container');
+  
+  // App State
+  let currentPrompt = null;
+  let favorites = JSON.parse(localStorage.getItem('dfg_favorites')) || [];
+  let history = JSON.parse(localStorage.getItem('dfg_history')) || [];
+  
+  // Tab control
+  if (tabHistory && tabFavorites && listHistory && listFavorites) {
+    tabHistory.addEventListener('click', () => {
+      tabHistory.classList.add('active');
+      tabFavorites.classList.remove('active');
+      listHistory.classList.remove('hidden');
+      listFavorites.classList.add('hidden');
+    });
+
+    tabFavorites.addEventListener('click', () => {
+      tabFavorites.classList.add('active');
+      tabHistory.classList.remove('active');
+      listHistory.classList.add('hidden');
+      listFavorites.classList.remove('hidden');
+    });
+  }
+
+  // Toast Functionality
+  function showToast(message) {
+    const toast = document.createElement('div');
+    toast.className = 'toast-notification';
+    toast.textContent = message;
+    toastContainer.appendChild(toast);
+    
+    // Trigger CSS animation entry
+    setTimeout(() => toast.classList.add('show'), 10);
+    
+    // Remove after 3s
+    setTimeout(() => {
+      toast.classList.remove('show');
+      toast.addEventListener('transitionend', () => toast.remove());
+    }, 3000);
+  }
+
+  // Get filtered prompts
+  function getFilteredPrompts() {
+    const category = filterCategory.value;
+    const difficulty = filterDifficulty.value;
+    const style = filterStyle.value;
+    const mood = filterMood.value;
+    
+    return promptsData.filter(p => {
+      if (category !== 'all' && p.category !== category) return false;
+      if (difficulty !== 'all' && p.difficulty !== difficulty) return false;
+      if (style !== 'all' && p.style !== style) return false;
+      if (mood !== 'all' && p.mood !== mood) return false;
+      return true;
+    });
+  }
+
+  // Generate Prompt
+  function generatePrompt(specificPrompt = null) {
+    let selected = specificPrompt;
+    
+    if (!selected) {
+      const filtered = getFilteredPrompts();
+      if (filtered.length === 0) {
+        showToast('No prompts match your exact filter combination. Try broadening your options!');
+        return;
+      }
+      // Pick random
+      selected = filtered[Math.floor(Math.random() * filtered.length)];
+    }
+    
+    currentPrompt = selected;
+    
+    // Update active UI card
+    displayPrompt.textContent = selected.text;
+    badgeCategory.textContent = selected.category;
+    badgeDifficulty.textContent = selected.difficulty;
+    
+    // Manage optional/dynamic badges
+    if (selected.style) {
+      badgeStyle.textContent = selected.style;
+      badgeStyle.style.display = 'inline-flex';
+    } else {
+      badgeStyle.style.display = 'none';
+    }
+
+    if (selected.mood) {
+      badgeMood.textContent = selected.mood;
+      badgeMood.style.display = 'inline-flex';
+    } else {
+      badgeMood.style.display = 'none';
+    }
+    
+    // Set favorite toggle heart state
+    const isFav = favorites.some(fav => fav.id === selected.id);
+    updateFavoriteBtnHeart(isFav);
+    
+    // Add to history
+    addToHistory(selected);
+  }
+
+  function updateFavoriteBtnHeart(isFav) {
+    if (isFav) {
+      btnFavorite.classList.add('favorited');
+      btnFavorite.setAttribute('aria-label', 'Remove from favorites');
+    } else {
+      btnFavorite.classList.remove('favorited');
+      btnFavorite.setAttribute('aria-label', 'Add to favorites');
+    }
+  }
+
+  // Add to History list
+  function addToHistory(prompt) {
+    // Avoid double entries consecutively
+    if (history.length > 0 && history[0].id === prompt.id) return;
+    
+    // Remove if already exists to push to front
+    history = history.filter(item => item.id !== prompt.id);
+    history.unshift(prompt);
+    
+    // Keep max 15 items
+    if (history.length > 15) history.pop();
+    
+    localStorage.setItem('dfg_history', JSON.stringify(history));
+    renderHistory();
+  }
+
+  // Render History UI list
+  function renderHistory() {
+    if (history.length === 0) {
+      listHistory.innerHTML = '<p class="empty-list-msg">No prompts generated yet.</p>';
+      return;
+    }
+    
+    listHistory.innerHTML = history.map(p => `
+      <div class="list-item" data-id="${p.id}">
+        <div class="list-item-header">
+          <span class="badge badge-primary">${p.category}</span>
+          <span class="badge-sub">${p.difficulty}</span>
+        </div>
+        <p class="list-item-text">${p.text}</p>
+      </div>
+    `).join('');
+
+    // Attach click events
+    listHistory.querySelectorAll('.list-item').forEach(item => {
+      item.addEventListener('click', () => {
+        const id = item.getAttribute('data-id');
+        const found = promptsData.find(p => p.id === id);
+        if (found) generatePrompt(found);
+      });
+    });
+  }
+
+  // Render Favorites UI list
+  function renderFavorites() {
+    favoritesCountSpan.textContent = favorites.length;
+    
+    if (favorites.length === 0) {
+      listFavorites.innerHTML = '<p class="empty-list-msg">Your favorite prompts will show here.</p>';
+      return;
+    }
+    
+    listFavorites.innerHTML = favorites.map(p => `
+      <div class="list-item" data-id="${p.id}">
+        <div class="list-item-header">
+          <span class="badge badge-primary">${p.category}</span>
+          <span class="badge-sub">${p.difficulty}</span>
+        </div>
+        <p class="list-item-text">${p.text}</p>
+      </div>
+    `).join('');
+
+    // Attach click events
+    listFavorites.querySelectorAll('.list-item').forEach(item => {
+      item.addEventListener('click', () => {
+        const id = item.getAttribute('data-id');
+        const found = promptsData.find(p => p.id === id);
+        if (found) generatePrompt(found);
+      });
+    });
+  }
+
+  // Toggle Favorite
+  function toggleFavorite() {
+    if (!currentPrompt) return;
+    
+    const index = favorites.findIndex(fav => fav.id === currentPrompt.id);
+    if (index === -1) {
+      favorites.unshift(currentPrompt);
+      showToast('Added prompt to favorites!');
+      updateFavoriteBtnHeart(true);
+    } else {
+      favorites.splice(index, 1);
+      showToast('Removed prompt from favorites.');
+      updateFavoriteBtnHeart(false);
+    }
+    
+    localStorage.setItem('dfg_favorites', JSON.stringify(favorites));
+    renderFavorites();
+  }
+
+  // Copy to clipboard
+  function copyToClipboard() {
+    if (!currentPrompt) return;
+    
+    navigator.clipboard.writeText(currentPrompt.text).then(() => {
+      btnCopy.classList.add('copy-success');
+      btnCopyText.textContent = 'Copied!';
+      showToast('Prompt copied to clipboard!');
+      
+      setTimeout(() => {
+        btnCopy.classList.remove('copy-success');
+        btnCopyText.textContent = 'Copy Prompt';
+      }, 1500);
+    }).catch(err => {
+      showToast('Failed to copy. Please highlight text to copy.');
+    });
+  }
+
+  // Setup Actions
+  btnGenerate.addEventListener('click', () => generatePrompt());
+  btnCopy.addEventListener('click', copyToClipboard);
+  btnFavorite.addEventListener('click', toggleFavorite);
+
+  // Challenge Loading button
+  if (btnLoadChallenge) {
+    btnLoadChallenge.addEventListener('click', () => {
+      const challengePrompt = {
+        id: 'challenge-daily',
+        text: challengeText.textContent,
+        category: 'Daily Challenge',
+        difficulty: 'Intermediate',
+        style: 'Realistic',
+        mood: 'Calm'
+      };
+      generatePrompt(challengePrompt);
+      // Smooth scroll to card
+      document.getElementById('active-prompt-card').scrollIntoView({ behavior: 'smooth' });
+    });
+  }
+
+  // Keyboard shortcut listener (Spacebar = Generate)
+  window.addEventListener('keydown', (e) => {
+    // Only trigger if focus is not inside form elements (like selects or buttons)
+    const activeEl = document.activeElement;
+    const isFormElement = activeEl && (
+      activeEl.tagName === 'INPUT' || 
+      activeEl.tagName === 'SELECT' || 
+      activeEl.tagName === 'TEXTAREA' ||
+      activeEl.getAttribute('contenteditable') === 'true'
+    );
+    
+    if (e.code === 'Space' && !isFormElement) {
+      e.preventDefault(); // Stop page scrolling down
+      
+      // Add subtle scale animation to button
+      btnGenerate.classList.add('active');
+      setTimeout(() => btnGenerate.classList.remove('active'), 150);
+      
+      generatePrompt();
+    }
+  });
+
+  // URL routing pre-selections (like categories landing page links)
+  function initFiltersFromUrl() {
+    const params = new URLSearchParams(window.location.search);
+    const categoryParam = params.get('category');
+    
+    if (categoryParam) {
+      // Find category exact case match
+      const matchingCat = [...filterCategory.options].find(opt => opt.value.toLowerCase() === categoryParam.toLowerCase());
+      if (matchingCat) {
+        filterCategory.value = matchingCat.value;
+      }
+    }
+    
+    // Auto-generate initial prompt
+    generatePrompt();
+  }
+
+  // Setup Hero Random Category trigger linkage
+  const heroRandomCatBtn = document.getElementById('hero-random-cat-btn');
+  if (heroRandomCatBtn) {
+    heroRandomCatBtn.addEventListener('click', () => {
+      const randomIdx = Math.floor(Math.random() * filterCategory.options.length);
+      // Prevent selecting "all" index 0
+      filterCategory.selectedIndex = randomIdx === 0 ? 1 : randomIdx;
+      generatePrompt();
+      // Scroll to generator box
+      document.getElementById('generator-box').scrollIntoView({ behavior: 'smooth' });
+    });
+  }
+
+  // Init APP
+  initFiltersFromUrl();
+  renderFavorites();
+  renderHistory();
+</script>
+
+<style>
+  .generator-section {
+    padding: 40px 0 60px 0;
+  }
+
+  .generator-grid {
+    display: grid;
+    grid-template-columns: 2.25fr 1fr;
+    gap: 32px;
+    align-items: flex-start;
+  }
+
+  .generator-main {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .section-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--text);
+  }
+
+  /* Filters */
+  .filter-card {
+    padding: 24px;
+  }
+
+  .filter-controls {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .filter-group label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-muted);
+  }
+
+  .filter-select {
+    padding: 12px;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-color);
+    background-color: var(--background);
+    color: var(--text);
+    font-family: inherit;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: var(--transition-fast);
+    outline: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%234B5563' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 16px;
+    padding-right: 40px;
+  }
+
+  .filter-select:hover {
+    border-color: var(--border-color-hover);
+  }
+
+  .filter-select:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(109, 94, 248, 0.15);
+  }
+
+  html.dark .filter-select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%239CA3AF' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  }
+
+  /* Prompt Card */
+  .prompt-card {
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    min-height: 320px; /* Limit layout shifts (CLS) */
+    position: relative;
+    border-color: rgba(109, 94, 248, 0.1);
+  }
+
+  .prompt-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+
+  .prompt-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .favorite-toggle-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--text-light);
+    transition: var(--transition-bounce);
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .favorite-toggle-btn:hover {
+    color: #EF4444;
+    transform: scale(1.15);
+    background-color: rgba(239, 68, 68, 0.05);
+  }
+
+  .favorite-toggle-btn.favorited {
+    color: #EF4444;
+  }
+
+  .favorite-toggle-btn.favorited svg {
+    fill: #EF4444;
+  }
+
+  .prompt-text-container {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+  }
+
+  #prompt-display-text {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.4;
+    color: var(--text);
+    text-align: center;
+    max-width: 90%;
+  }
+
+  .prompt-card-actions {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .btn-copy {
+    flex: 1;
+    max-width: 200px;
+  }
+
+  .btn-generate {
+    flex: 2;
+    max-width: 350px;
+  }
+
+  /* Spin icon animation */
+  .btn-generate:hover .spin-icon {
+    transform: rotate(180deg);
+  }
+
+  .spin-icon {
+    transition: transform 0.5s ease;
+  }
+
+  .keyboard-tip {
+    font-size: 0.8rem;
+    color: var(--text-light);
+    margin-top: 16px;
+  }
+
+  .keyboard-key {
+    background-color: var(--background);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 1px 0 rgba(0,0,0,0.1);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-family: monospace;
+    font-size: 0.75rem;
+  }
+
+  /* Sidebar styling */
+  .generator-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .sidebar-card {
+    padding: 20px;
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sidebar-tabs {
+    display: flex;
+    border-bottom: 2px solid var(--border-color);
+    margin-bottom: 16px;
+  }
+
+  .tab-btn {
+    flex: 1;
+    background: transparent;
+    border: none;
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    padding: 10px 0;
+    cursor: pointer;
+    transition: var(--transition-fast);
+    position: relative;
+  }
+
+  .tab-btn.active {
+    color: var(--primary);
+  }
+
+  .tab-btn.active::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--primary);
+  }
+
+  .scrollable-list {
+    flex-grow: 1;
+    overflow-y: auto;
+    max-height: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-right: 4px;
+  }
+
+  .empty-list-msg {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .list-item {
+    padding: 12px 14px;
+    background-color: var(--background);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: var(--transition-fast);
+  }
+
+  .list-item:hover {
+    border-color: var(--primary);
+    background-color: var(--card-bg);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .list-item-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+  }
+
+  .list-item-header .badge {
+    padding: 2px 8px;
+    font-size: 0.65rem;
+  }
+
+  .badge-sub {
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: var(--text-light);
+  }
+
+  .list-item-text {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    line-height: 1.4;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Daily Challenge Card */
+  .daily-challenge-card {
+    padding: 24px;
+    background: linear-gradient(135deg, rgba(139, 127, 255, 0.05) 0%, rgba(109, 94, 248, 0.05) 100%);
+    border-color: rgba(109, 94, 248, 0.15);
+  }
+
+  .challenge-header {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+
+  .challenge-header h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+
+  .daily-challenge-card p {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-bottom: 16px;
+    line-height: 1.5;
+  }
+
+  .btn-sm {
+    padding: 8px 16px;
+    font-size: 0.85rem;
+    width: 100%;
+  }
+
+  /* Toast Notification */
+  .toast-container {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1000;
+  }
+
+  .toast-notification {
+    background-color: #111827;
+    color: #F9FAFB;
+    border: 1px solid #1F2937;
+    padding: 12px 20px;
+    border-radius: var(--radius-md);
+    font-size: 0.85rem;
+    font-weight: 500;
+    box-shadow: var(--shadow-xl);
+    transform: translateY(50px);
+    opacity: 0;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.3s ease;
+  }
+
+  .toast-notification.show {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  /* Copy success state animation */
+  .btn-copy.copy-success {
+    background-color: rgba(16, 185, 129, 0.1);
+    color: #10B981;
+    border-color: #10B981;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .generator-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .filter-controls {
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+
+    .prompt-card {
+      padding: 24px 16px;
+    }
+
+    #prompt-display-text {
+      font-size: 1.25rem;
+    }
+
+    .prompt-card-actions {
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    .btn-copy, .btn-generate {
+      max-width: 100%;
+    }
+  }
+</style>

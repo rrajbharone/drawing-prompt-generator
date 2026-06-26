@@ -1,0 +1,114 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const title = "Privacy Policy — Drawing Prompt Generator";
+const description = "Read the privacy policy for Drawing Prompt Generator. Learn how we handle local storage, tracking, cookies, and user analytics.";
+---
+
+<Layout title={title} description={description}>
+  <div class="legal-page">
+    <div class="container container-narrow">
+      <div class="text-center legal-header">
+        <h1 class="legal-title">Privacy Policy</h1>
+        <p class="legal-subtitle">Effective Date: June 26, 2026</p>
+      </div>
+
+      <div class="card legal-content-card">
+        <p>
+          At Drawing Prompt Generator (accessible at drawingpromptgenerator.com), the privacy of our visitors is of extreme importance to us. This Privacy Policy document outlines the types of information we collect and record, and how we use it.
+        </p>
+
+        <h2>1. Local Storage Usage</h2>
+        <p>
+          Unlike traditional websites that store your selections on a server database, Drawing Prompt Generator runs entirely client-side. We use your browser's <strong>Local Storage</strong> (localStorage) to persist:
+        </p>
+        <ul>
+          <li>Your list of favorited drawing prompts.</li>
+          <li>Your recent prompt generation history.</li>
+        </ul>
+        <p>
+          This data is stored purely on your local device. We cannot access, view, share, or delete your favorites or history. If you clear your browser's cache or local storage, this data will be permanently deleted from your device.
+        </p>
+
+        <h2>2. Log Files</h2>
+        <p>
+          Drawing Prompt Generator follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this as part of hosting services' analytics. The information collected by log files includes internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.
+        </p>
+
+        <h2>3. Third-Party Analytics and Ads</h2>
+        <p>
+          We may implement third-party analytics (like Google Analytics) or advertising networks (like Google AdSense) on this site to help optimize content delivery and fund our free services. These third-party services may use cookies, JavaScript, or web beacons to measure the effectiveness of their campaigns or personalize ad content in your browser. Drawing Prompt Generator has no access to or control over these cookies used by third-party advertisers.
+        </p>
+
+        <h2>4. Contact Us</h2>
+        <p>
+          If you have any questions or require more information about our Privacy Policy, do not hesitate to contact us at <a href="mailto:privacy@drawingpromptgenerator.com">privacy@drawingpromptgenerator.com</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .legal-page {
+    padding: 60px 0 80px 0;
+  }
+
+  .container-narrow {
+    max-width: 800px;
+  }
+
+  .legal-header {
+    margin-bottom: 40px;
+  }
+
+  .legal-title {
+    font-size: 2.75rem;
+    letter-spacing: -0.02em;
+    margin-bottom: 8px;
+  }
+
+  .legal-subtitle {
+    font-size: 0.95rem;
+    color: var(--text-light);
+  }
+
+  .legal-content-card {
+    padding: 40px;
+  }
+
+  .legal-content-card h2 {
+    font-size: 1.35rem;
+    margin-top: 32px;
+    margin-bottom: 12px;
+    color: var(--text);
+  }
+
+  .legal-content-card p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 16px;
+    color: var(--text-muted);
+  }
+
+  .legal-content-card ul {
+    margin-bottom: 16px;
+    padding-left: 24px;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+  }
+
+  .legal-content-card li {
+    margin-bottom: 8px;
+  }
+
+  @media (max-width: 640px) {
+    .legal-content-card {
+      padding: 24px 16px;
+    }
+    
+    .legal-title {
+      font-size: 2.25rem;
+    }
+  }
+</style>

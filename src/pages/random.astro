@@ -1,0 +1,290 @@
+---
+import Layout from '../layouts/Layout.astro';
+import promptsData from '../data/prompts.json';
+
+const title = "Random Drawing Prompt Generator — Instant Art Ideas";
+const description = "Instantly generate a completely random drawing prompt. Get creative character concepts, fantasy scenes, vehicles, landscape templates, and design inspirations.";
+---
+
+<Layout title={title} description={description}>
+  <div class="random-page">
+    <div class="container container-narrow text-center">
+      <div class="random-header">
+        <div class="badge badge-secondary">Quick Spark</div>
+        <h1 class="random-title">Your Random Prompt</h1>
+        <p class="random-subtitle">Here is a randomly selected drawing idea to test your artistic skills. Grab your canvas!</p>
+      </div>
+
+      <!-- Main Display Card -->
+      <div class="card random-card" id="random-prompt-box">
+        <div class="random-badges">
+          <span id="random-badge-category" class="badge badge-primary">Category</span>
+          <span id="random-badge-difficulty" class="badge badge-secondary">Difficulty</span>
+          <span id="random-badge-style" class="badge">Style</span>
+          <span id="random-badge-mood" class="badge">Mood</span>
+        </div>
+
+        <div class="prompt-display-area">
+          <p id="random-prompt-text">Selecting a creative prompt...</p>
+        </div>
+
+        <div class="random-actions">
+          <button class="btn btn-secondary" id="random-btn-copy">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+            <span id="random-copy-text">Copy Prompt</span>
+          </button>
+          <button class="btn btn-primary" id="random-btn-refresh">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="spin-icon"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"></path></svg>
+            <span>Roll Another</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="random-navigation">
+        <a href="/" class="btn btn-secondary btn-full-generator">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+          Open Advanced Generator with Filters
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast-container" class="toast-container"></div>
+</Layout>
+
+<script is:inline id="prompts-data-random" type="application/json" set:html={JSON.stringify(promptsData)} />
+
+<script>
+  const prompts = JSON.parse(document.getElementById('prompts-data-random').textContent);
+  
+  const promptText = document.getElementById('random-prompt-text');
+  const badgeCategory = document.getElementById('random-badge-category');
+  const badgeDifficulty = document.getElementById('random-badge-difficulty');
+  const badgeStyle = document.getElementById('random-badge-style');
+  const badgeMood = document.getElementById('random-badge-mood');
+  
+  const btnRefresh = document.getElementById('random-btn-refresh');
+  const btnCopy = document.getElementById('random-btn-copy');
+  const btnCopyText = document.getElementById('random-copy-text');
+  const toastContainer = document.getElementById('toast-container');
+
+  let currentPrompt = null;
+
+  function showToast(message) {
+    const toast = document.createElement('div');
+    toast.className = 'toast-notification';
+    toast.textContent = message;
+    toastContainer.appendChild(toast);
+    
+    setTimeout(() => toast.classList.add('show'), 10);
+    
+    setTimeout(() => {
+      toast.classList.remove('show');
+      toast.addEventListener('transitionend', () => toast.remove());
+    }, 3000);
+  }
+
+  function generateRandom() {
+    const selected = prompts[Math.floor(Math.random() * prompts.length)];
+    currentPrompt = selected;
+
+    promptText.textContent = selected.text;
+    badgeCategory.textContent = selected.category;
+    badgeDifficulty.textContent = selected.difficulty;
+
+    if (selected.style) {
+      badgeStyle.textContent = selected.style;
+      badgeStyle.style.display = 'inline-flex';
+    } else {
+      badgeStyle.style.display = 'none';
+    }
+
+    if (selected.mood) {
+      badgeMood.textContent = selected.mood;
+      badgeMood.style.display = 'inline-flex';
+    } else {
+      badgeMood.style.display = 'none';
+    }
+  }
+
+  function copyPrompt() {
+    if (!currentPrompt) return;
+    navigator.clipboard.writeText(currentPrompt.text).then(() => {
+      btnCopy.classList.add('copy-success');
+      btnCopyText.textContent = 'Copied!';
+      showToast('Copied to clipboard!');
+      
+      setTimeout(() => {
+        btnCopy.classList.remove('copy-success');
+        btnCopyText.textContent = 'Copy Prompt';
+      }, 1500);
+    });
+  }
+
+  btnRefresh.addEventListener('click', generateRandom);
+  btnCopy.addEventListener('click', copyPrompt);
+
+  // Keyboard shortcut (Space = Roll)
+  window.addEventListener('keydown', (e) => {
+    if (e.code === 'Space') {
+      e.preventDefault();
+      btnRefresh.classList.add('active');
+      setTimeout(() => btnRefresh.classList.remove('active'), 150);
+      generateRandom();
+    }
+  });
+
+  // Initial generation
+  generateRandom();
+</script>
+
+<style>
+  .random-page {
+    padding: 60px 0 40px 0;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  .container-narrow {
+    max-width: 700px;
+  }
+
+  .random-header {
+    margin-bottom: 36px;
+  }
+
+  .random-title {
+    font-size: 2.75rem;
+    margin-top: 12px;
+    margin-bottom: 16px;
+    letter-spacing: -0.02em;
+  }
+
+  .random-subtitle {
+    font-size: 1.05rem;
+    color: var(--text-muted);
+  }
+
+  /* Display card */
+  .random-card {
+    padding: 48px;
+    min-height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    border-color: rgba(139, 127, 255, 0.2);
+  }
+
+  .random-badges {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+  }
+
+  .prompt-display-area {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 36px;
+  }
+
+  #random-prompt-text {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.4;
+    color: var(--text);
+    max-width: 90%;
+  }
+
+  .random-actions {
+    display: flex;
+    gap: 16px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .random-actions .btn {
+    flex: 1;
+    max-width: 200px;
+  }
+
+  .random-actions .btn-primary:hover .spin-icon {
+    transform: rotate(180deg);
+  }
+
+  .spin-icon {
+    transition: transform 0.5s ease;
+  }
+
+  .random-navigation {
+    margin-top: 20px;
+  }
+
+  .btn-full-generator {
+    padding: 12px 30px;
+    width: 100%;
+    max-width: 420px;
+  }
+
+  /* Toast Notification */
+  .toast-container {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1000;
+  }
+
+  .toast-notification {
+    background-color: #111827;
+    color: #F9FAFB;
+    border: 1px solid #1F2937;
+    padding: 12px 20px;
+    border-radius: var(--radius-md);
+    font-size: 0.85rem;
+    font-weight: 500;
+    box-shadow: var(--shadow-xl);
+    transform: translateY(50px);
+    opacity: 0;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.3s ease;
+  }
+
+  .toast-notification.show {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .btn-secondary.copy-success {
+    background-color: rgba(16, 185, 129, 0.1);
+    color: #10B981;
+    border-color: #10B981;
+  }
+
+  @media (max-width: 640px) {
+    .random-card {
+      padding: 30px 16px;
+    }
+
+    #random-prompt-text {
+      font-size: 1.3rem;
+    }
+
+    .random-actions {
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    .random-actions .btn {
+      max-width: 100%;
+    }
+  }
+</style>
