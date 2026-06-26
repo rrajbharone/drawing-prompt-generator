@@ -14,5 +14,11 @@
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",
     "astro": "^7.0.3"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "defaults",
+    "not dead",
+    "not op_mini all"
+  ]
 }

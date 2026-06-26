@@ -6,5 +6,10 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   site: 'https://drawingpromptgenerator.com',
   integrations: [sitemap()],
+  vite: {
+    build: {
+      cssTarget: 'chrome80'
+    }
+  }
 });
 
